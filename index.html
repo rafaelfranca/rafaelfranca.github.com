@@ -13,6 +13,7 @@ description: Desenvolvimento de Sofware, Agile e Ruby on Rails
       <h2>Categorias: {{ post.categories | join: ", " }}</h2>
     </header>
     {{ post.content }}
+    <a href="{{ post.url}}#disqus_thread">Comentários</a>
     <hr/>
   </article>
   {% endfor %}

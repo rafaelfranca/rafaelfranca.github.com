@@ -84,6 +84,17 @@ git clone usuário@meurepositório.com.br:/home/usuário/repositório.git
 	<li><a href="http://akitaonrails.com/2008/4/3/micro-tutorial-de-git">Micro Tutorial de <span class="caps">GIT</span></a></li>
 	<li><a href="http://pt.whygitisbetterthanx.com/">Por que <span class="caps">GIT</span> é melhor que X</a></li>
 </ul>
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+  var disqus_identifier;
+  (function() {
+   var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+   dsq.src = 'http://rafaelfranca.disqus.com/embed.js';
+   (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript=rafaelfranca">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
 </article>
 
 
@@ -108,10 +119,36 @@ git clone usuário@meurepositório.com.br:/home/usuário/repositório.git
         </section>
 
         <footer>
-        <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/br/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/br/88x31.png" /></a><br />Esta obra est&#225; licenciada sob uma <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/br/">Licen&#231;a Creative Commons</a>.
-        <br />
-        Powered by <a href='http://github.com/mojombo/jekyll'>Jekyll</a>.
+          <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/br/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/br/88x31.png" /></a><br />Esta obra est&#225; licenciada sob uma <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/br/">Licen&#231;a Creative Commons</a>.
+          <br />
+          Powered by <a href='http://github.com/mojombo/jekyll'>Jekyll</a>.
         </footer>
       </div>
+<script type="text/javascript">
+//<![CDATA[
+(function() {
+	var links = document.getElementsByTagName('a');
+	var query = '?';
+	for(var i = 0; i < links.length; i++) {
+	if(links[i].href.indexOf('#disqus_thread') >= 0) {
+		query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+	}
+	}
+	document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/rafaelfranca/get_num_replies.js' + query + '"></' + 'script>');
+})();
+//]]>
+</script>      
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-10132559-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
     </body>
 </html>
