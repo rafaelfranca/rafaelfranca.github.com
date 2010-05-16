@@ -4,7 +4,7 @@
  <title>Blog do Rafael França</title>
  <link href="http://www.rafaelfranca.com.br/atom.xml" rel="self"/>
  <link href="http://www.rafaelfranca.com.br/"/>
- <updated>2010-05-16T17:50:25-03:00</updated>
+ <updated>2010-05-16T17:52:01-03:00</updated>
  <id>http://www.rafaelfranca.com.br</id>
  <author>
    <name>Rafael Mendonça França</name>
@@ -83,7 +83,7 @@ manutenabilidade&lt;/p&gt;</content>
 &lt;p&gt;&lt;code&gt;git merge master novo_branch&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Outro comando que podemos utilizar para juntar dois branches é o comando &lt;code&gt;rebase&lt;/code&gt;. A principal diferença do comando rebase para o merge é que ao invés de criar um novo commit com o resultado da junção dos dois branches o &lt;span class=&quot;caps&quot;&gt;GIT&lt;/span&gt; faz o fast-forward juntando as duas árvores de commits, mantendo, com isso, o histórico de commits feitos em ambos os branches e diminuindo o número de conflitos.&lt;/p&gt;
 &lt;p&gt;A figura a seguir mostra o comportamento do rebase.&lt;/p&gt;
-&lt;div style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;http://rafaelfranca.com/br/images/rebase4-300x124.png&quot; title=&quot;Rebase&quot; alt=&quot;Rebase&quot; /&gt;&lt;/div&gt;
+&lt;div style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;http://rafaelfranca.com.br/images/rebase4-300x124.png&quot; title=&quot;Rebase&quot; alt=&quot;Rebase&quot; /&gt;&lt;/div&gt;
 &lt;h1&gt;Resolvendo conflitos&lt;/h1&gt;
 &lt;p&gt;Algumas vezes quando utilizamos do merge ou até mesmo do rebase podem ocorrer alguns conflitos. Para resolve-los temos que editar os arquivos que causaram o conflito. Os arquivos com conflito geralmente se encontram com a seguinte estrutura:&lt;/p&gt;
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;&lt;span class=&quot;lineno&quot;&gt;1&lt;/span&gt;   &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Person&lt;/span&gt;

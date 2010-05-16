@@ -40,7 +40,7 @@ Outro comando que podemos utilizar para juntar dois branches é o comando @rebas
 
 A figura a seguir mostra o comportamento do rebase.
 
-div=. !http://rafaelfranca.com/br/images/rebase4-300x124.png(Rebase)!
+div=. !http://rafaelfranca.com.br/images/rebase4-300x124.png(Rebase)!
 
 h1. Resolvendo conflitos
 
