@@ -197,3 +197,7 @@ footer {
 footer a {
   color: #2d83d5;
 }
+
+#disqus_thread {
+  margin-top: 10px;
+}
