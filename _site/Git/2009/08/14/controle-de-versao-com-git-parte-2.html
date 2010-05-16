@@ -57,7 +57,7 @@
 <p><code>git merge master novo_branch</code></p>
 <p>Outro comando que podemos utilizar para juntar dois branches é o comando <code>rebase</code>. A principal diferença do comando rebase para o merge é que ao invés de criar um novo commit com o resultado da junção dos dois branches o <span class="caps">GIT</span> faz o fast-forward juntando as duas árvores de commits, mantendo, com isso, o histórico de commits feitos em ambos os branches e diminuindo o número de conflitos.</p>
 <p>A figura a seguir mostra o comportamento do rebase.</p>
-<div style="text-align:center;"><img src="images/rebase4-300x124.png" title="Rebase" alt="Rebase" /></div>
+<div style="text-align:center;"><img src="http://rafaelfranca.com/br/images/rebase4-300x124.png" title="Rebase" alt="Rebase" /></div>
 <h1>Resolvendo conflitos</h1>
 <p>Algumas vezes quando utilizamos do merge ou até mesmo do rebase podem ocorrer alguns conflitos. Para resolve-los temos que editar os arquivos que causaram o conflito. Os arquivos com conflito geralmente se encontram com a seguinte estrutura:</p>
 <div class="highlight"><pre><code class="ruby"><span class="lineno">1</span>   <span class="k">class</span> <span class="nc">Person</span>
