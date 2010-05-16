@@ -1,0 +1,16 @@
+---
+layout: master
+title: Desenvolvimento de Software, Agile e Ruby on Rails
+keywords: ruby on rails, agile, software, development, desenvolvimento, ágil, rubyonrails, ruby, rails
+description: Desenvolvimento de Sofware, Agile e Ruby on Rails
+---
+<section>
+  {% for post in site.posts limit: 3 %}
+  <article class="post">
+    <header>
+      <h1><a href="{{ post.url }}"> {{ post.title }}</a></h1>
+    </header>
+    {{ post.content }}
+  </article>
+  {% endfor %}
+</section>
