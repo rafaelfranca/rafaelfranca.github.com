@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
     <head>
-      <title>Blog do Rafael França - Padrão MVC</title>
+      <title>Blog do Rafael França - Blog migrado para Jekyll</title>
 
         <meta charset="utf-8">
-        <meta name="keywords" content="mvc, patterns, pattern, arquitetura, design, ruby, rails, ruby on rails, rubyonrails, php"/>
-        <meta name="description" content="Descrição do Padrão MVC"/>
+        <meta name="keywords" content="jekyll, ruby, rails, rubyonrails, ruby on rails, rack, html, css, css3, css 3, html 5, html5, git, akismet, disqus"/>
+        <meta name="description" content="O meu blog foi migrado do Wordpress para o Jekyll. O layout foi desenvolvido utilizando HTML 5 e CSS 3"/>
 
         <link rel="stylesheet" href="/css/screen.css" media="screen" charset="utf-8">
         <link rel="stylesheet" href="/css/style.css" media="screen" charset="utf-8">
@@ -36,19 +36,15 @@
         <section id="main">
           <article class="post prepend-1 append-1 span-15">
   <header>
-    <h1><a href="/Arquitetura/2009/08/24/padrao-mvc.html">Padrão MVC</a></h1>
-    <h2>Postado por Rafael Mendonça França em 24/08/2009</h2>
-    <h2>Categorias: Arquitetura</h2>
+    <h1><a href="/Ruby/2010/05/16/site-migrado-para-jekyll.html">Blog migrado para Jekyll</a></h1>
+    <h2>Postado por Rafael Mendonça França em 16/05/2010</h2>
+    <h2>Categorias: Ruby</h2>
   </header>
-  <p>Quebrando um pouco a sequência de posts sobre o <span class="caps">GIT</span>, hoje irei falar sobre o padrão <span class="caps">MVC</span> (Model-View-Controller) a pedido de meu colega de trabalho no <a href="http://www.grupoagencia.com.br">Grupo Agência</a>, <a href="http://twitter.com/marciotoze">@marciotoze</a>.</p>
-<p>O padrão <span class="caps">MVC</span> é um padrão arquitetural criado por <a href="http://en.wikipedia.org/wiki/Trygve_Reenskaug">Trygve Reenskaug</a> em 1979 que divide as aplicações em três tipos de componentes: Modelo, Controlador e Visão. Esse padrão foi originalmente criado para implementar aplicações desktop com interface gráfica, e hoje a ideia é muito utilizada para aplicações Web.  Essa divisão em três componentes ajuda a separar responsabilidades, promovendo baixo <a href="http://pt.wikipedia.org/wiki/Acoplamento">acoplamento</a> e alta <a href="http://pt.wikipedia.org/wiki/Coes%C3%A3o">coesão</a>, o que facilita a manutenabilidade.</p>
-<p>O <span class="caps">MVC</span> está organizado da seguinte forma:</p>
-<div style="text-align:center;"><img src="http://rafaelfranca.com.br/images/mvc-300x141.png" title="Diagrama do Padrão MVC" alt="Diagrama do Padrão MVC" /></div>
-<p>O Modelo (Model) fica com a responsabilidade de manter o estado da aplicação. Ele é mais que uma classe para armazenar os dados, nele devem está contidas todas as regras de negócio que se aplicam a esses dados. É o modelo também o responsável por comunicar-se com o banco de dados.</p>
-<p>A Visão (View) fica com a responsabilidade de apresentar as informações do usuário. Essas informações geralmente são baseadas nos dados armazenados nos modelos.</p>
-<p>O Controlador (Controller) interpreta as ações do usuário, as mapeia para chamadas do modelo e apresenta a visão correta para o usuário.</p>
-<p>Frameworks com o <a href="http://rubyonrails.org">Ruby on Rails</a> e o <a href="http://www.cakephp.com.br/">CakePHP</a> utilizam-se desse padrão para escrever suas aplicações, e ele é uma das peças chaves para a produtividade destes frameworks.<br />
-manutenabilidade</p>
+  <p>Depois de muito tempo sem atualizar o blog fiz uma mudança geral em todo o sistema que utilizava.</p>
+<p>Quando eu criei este blog eu utilizei uma ferramenta bem conhecida, o <a href="http://www.wordpress.org">Wordpress</a>. Fui feliz enquanto utilizei o Wordpress principalmente pelas facilidades que ele traz e os diversos plugins disponíveis. Com o passar do tempo percebi que o Wordpress tinha mais funcionalidades que eu necessitava. Além disso, com o distanciamento que tive do blog, de quase 9 meses, precisava de algum empurrão para retornar a escrever.</p>
+<p>Então decidi que iria utilizar uma solução de blog bastante simples, feita em <a href="http://ruby-lang.org">Ruby</a>, o <a href="http://github.com/mojombo/jekyll">Jekyll</a>. O Jekyll é totalmente baseado em arquivos, então não há necessidade de bancos de dados com o MySQL ou o PostgreSQL. Além disso ele utiliza uma linguagem de marcação bastante poderosa o <a href="http://en.wikipedia.org/wiki/Textile_%28markup_language%29">Textile</a> para poder escrever os posts. E para postar é só seguir o workflow do <a href="http://localhost:4000/Git/2009/08/07/controle-de-versao-com-git-parte-1.html">Git</a> que eu já estou acostumado: criar o arquivo do post, commitar e depois enviar as modificações para o <a href="http://heroku.com">Heroku</a>. Vocês podem encontrar mais informações sobre o Jekyll na página no projeto.</p>
+<p>Pus a mão na massa. Instalei e configurei o Jekyll, migrei os antigos posts do Wordpress, e coloquei a aplicação rodando no Heroku. Além disso modifiquei todo o layout do site para utilizar <a href="http://pt.wikipedia.org/wiki/HTML_5"><span class="caps">HTML</span> 5</a> e <a href="http://pt.wikipedia.org/wiki/CSS3"><span class="caps">CSS</span> 3</a>. Utilizei, também, algumas técnicas básicas de <span class="caps">SEO</span>, como keywords e url amigáveis. Para colocar os comentários nos posts eu estou utilizando o <a href="http://disqus.com">Disqus</a>. Este é um sistema de comentários muito bom e que deixa a responsabilidade de tratar os comentários de seu blog com o Disqus. Ele possui configurações para quase todos os gerenciadores de blogs conhecidos. Eu recomento darem uma olhada nele, pois ele se integra com o <a href="http://www.facebook.com/rafaelfranca">Facebook</a>, <a href="http://twitter.com/rafaelfranca">Twitter</a>, <a href="http://akismet.com/">Akismet</a> e com qualquer provedor <a href="http://openid.net/">OpenId</a>.</p>
+Todo o blog foi testado no Firefox 3.6 e no Google Chome. Ainda não testei no Internet Explorer, pois nem tenho ele instalado aqui na minha máquina, então se você estiver utilizando esse navegador com certeza o layout está errado. Sei que o design não está muito bom, mas a intenção deste blog é que ele esteja em constante desenvolvimento, para assim me forçar a escrever mais. Em breve eu devo fazer algumas modificações no layout que irão tornar esse blog mais bonito.
   <div id="disqus_thread"></div>
 <script type="text/javascript">
   var disqus_identifier;

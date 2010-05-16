@@ -1,0 +1,17 @@
+---
+layout: post
+title: Blog migrado para Jekyll
+keywords: jekyll, ruby, rails, rubyonrails, ruby on rails, rack, html, css, css3, css 3, html 5, html5, git, akismet, disqus
+description: O meu blog foi migrado do Wordpress para o Jekyll. O layout foi desenvolvido utilizando HTML 5 e CSS 3
+categories: ["Ruby"]
+authors: ["Rafael Mendonça França"]
+---
+Depois de muito tempo sem atualizar o blog fiz uma mudança geral em todo o sistema que utilizava.
+
+Quando eu criei este blog eu utilizei uma ferramenta bem conhecida, o "Wordpress":http://www.wordpress.org. Fui feliz enquanto utilizei o Wordpress principalmente pelas facilidades que ele traz e os diversos plugins disponíveis. Com o passar do tempo percebi que o Wordpress tinha mais funcionalidades que eu necessitava. Além disso, com o distanciamento que tive do blog, de quase 9 meses, precisava de algum empurrão para retornar a escrever.
+
+Então decidi que iria utilizar uma solução de blog bastante simples, feita em "Ruby":http://ruby-lang.org, o "Jekyll":http://github.com/mojombo/jekyll. O Jekyll é totalmente baseado em arquivos, então não há necessidade de bancos de dados com o MySQL ou o PostgreSQL. Além disso ele utiliza uma linguagem de marcação bastante poderosa o "Textile":http://en.wikipedia.org/wiki/Textile_%28markup_language%29 para poder escrever os posts. E para postar é só seguir o workflow do "Git":http://localhost:4000/Git/2009/08/07/controle-de-versao-com-git-parte-1.html que eu já estou acostumado: criar o arquivo do post, commitar e depois enviar as modificações para o "Heroku":http://heroku.com. Vocês podem encontrar mais informações sobre o Jekyll na página no projeto.
+
+Pus a mão na massa. Instalei e configurei o Jekyll, migrei os antigos posts do Wordpress, e coloquei a aplicação rodando no Heroku. Além disso modifiquei todo o layout do site para utilizar "HTML 5":http://pt.wikipedia.org/wiki/HTML_5 e "CSS 3":http://pt.wikipedia.org/wiki/CSS3. Utilizei, também, algumas técnicas básicas de SEO, como keywords e url amigáveis. Para colocar os comentários nos posts eu estou utilizando o "Disqus":http://disqus.com. Este é um sistema de comentários muito bom e que deixa a responsabilidade de tratar os comentários de seu blog com o Disqus. Ele possui configurações para quase todos os gerenciadores de blogs conhecidos. Eu recomento darem uma olhada nele, pois ele se integra com o "Facebook":http://www.facebook.com/rafaelfranca, "Twitter":http://twitter.com/rafaelfranca, "Akismet":http://akismet.com/ e com qualquer provedor "OpenId":http://openid.net/.
+
+ Todo o blog foi testado no Firefox 3.6 e no Google Chome. Ainda não testei no Internet Explorer, pois nem tenho ele instalado aqui na minha máquina, então se você estiver utilizando esse navegador com certeza o layout está errado. Sei que o design não está muito bom, mas a intenção deste blog é que ele esteja em constante desenvolvimento, para assim me forçar a escrever mais. Em breve eu devo fazer algumas modificações no layout que irão tornar esse blog mais bonito.

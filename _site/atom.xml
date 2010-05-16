@@ -4,13 +4,25 @@
  <title>Blog do Rafael França</title>
  <link href="http://www.rafaelfranca.com.br/atom.xml" rel="self"/>
  <link href="http://www.rafaelfranca.com.br/"/>
- <updated>2010-05-16T18:28:46-03:00</updated>
+ <updated>2010-05-16T19:31:27-03:00</updated>
  <id>http://www.rafaelfranca.com.br</id>
  <author>
    <name>Rafael Mendonça França</name>
    <email>rafaelmfranca@gmail.com</email>
  </author>
  
+ 
+ <entry>
+   <title>Blog migrado para Jekyll</title>
+   <link href="http://www.rafaelfranca.com/Ruby/2010/05/16/site-migrado-para-jekyll.html"/>
+   <updated>2010-05-16T00:00:00-03:00</updated>
+   <id>http://www.rafaelfranca.com.br/Ruby/2010/05/16/site-migrado-para-jekyll</id>
+   <content type="html">&lt;p&gt;Depois de muito tempo sem atualizar o blog fiz uma mudança geral em todo o sistema que utilizava.&lt;/p&gt;
+&lt;p&gt;Quando eu criei este blog eu utilizei uma ferramenta bem conhecida, o &lt;a href=&quot;http://www.wordpress.org&quot;&gt;Wordpress&lt;/a&gt;. Fui feliz enquanto utilizei o Wordpress principalmente pelas facilidades que ele traz e os diversos plugins disponíveis. Com o passar do tempo percebi que o Wordpress tinha mais funcionalidades que eu necessitava. Além disso, com o distanciamento que tive do blog, de quase 9 meses, precisava de algum empurrão para retornar a escrever.&lt;/p&gt;
+&lt;p&gt;Então decidi que iria utilizar uma solução de blog bastante simples, feita em &lt;a href=&quot;http://ruby-lang.org&quot;&gt;Ruby&lt;/a&gt;, o &lt;a href=&quot;http://github.com/mojombo/jekyll&quot;&gt;Jekyll&lt;/a&gt;. O Jekyll é totalmente baseado em arquivos, então não há necessidade de bancos de dados com o MySQL ou o PostgreSQL. Além disso ele utiliza uma linguagem de marcação bastante poderosa o &lt;a href=&quot;http://en.wikipedia.org/wiki/Textile_%28markup_language%29&quot;&gt;Textile&lt;/a&gt; para poder escrever os posts. E para postar é só seguir o workflow do &lt;a href=&quot;http://localhost:4000/Git/2009/08/07/controle-de-versao-com-git-parte-1.html&quot;&gt;Git&lt;/a&gt; que eu já estou acostumado: criar o arquivo do post, commitar e depois enviar as modificações para o &lt;a href=&quot;http://heroku.com&quot;&gt;Heroku&lt;/a&gt;. Vocês podem encontrar mais informações sobre o Jekyll na página no projeto.&lt;/p&gt;
+&lt;p&gt;Pus a mão na massa. Instalei e configurei o Jekyll, migrei os antigos posts do Wordpress, e coloquei a aplicação rodando no Heroku. Além disso modifiquei todo o layout do site para utilizar &lt;a href=&quot;http://pt.wikipedia.org/wiki/HTML_5&quot;&gt;&lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt; 5&lt;/a&gt; e &lt;a href=&quot;http://pt.wikipedia.org/wiki/CSS3&quot;&gt;&lt;span class=&quot;caps&quot;&gt;CSS&lt;/span&gt; 3&lt;/a&gt;. Utilizei, também, algumas técnicas básicas de &lt;span class=&quot;caps&quot;&gt;SEO&lt;/span&gt;, como keywords e url amigáveis. Para colocar os comentários nos posts eu estou utilizando o &lt;a href=&quot;http://disqus.com&quot;&gt;Disqus&lt;/a&gt;. Este é um sistema de comentários muito bom e que deixa a responsabilidade de tratar os comentários de seu blog com o Disqus. Ele possui configurações para quase todos os gerenciadores de blogs conhecidos. Eu recomento darem uma olhada nele, pois ele se integra com o &lt;a href=&quot;http://www.facebook.com/rafaelfranca&quot;&gt;Facebook&lt;/a&gt;, &lt;a href=&quot;http://twitter.com/rafaelfranca&quot;&gt;Twitter&lt;/a&gt;, &lt;a href=&quot;http://akismet.com/&quot;&gt;Akismet&lt;/a&gt; e com qualquer provedor &lt;a href=&quot;http://openid.net/&quot;&gt;OpenId&lt;/a&gt;.&lt;/p&gt;
+Todo o blog foi testado no Firefox 3.6 e no Google Chome. Ainda não testei no Internet Explorer, pois nem tenho ele instalado aqui na minha máquina, então se você estiver utilizando esse navegador com certeza o layout está errado. Sei que o design não está muito bom, mas a intenção deste blog é que ele esteja em constante desenvolvimento, para assim me forçar a escrever mais. Em breve eu devo fazer algumas modificações no layout que irão tornar esse blog mais bonito.</content>
+ </entry>
  
  <entry>
    <title>[Tradução] Manter-se atualizado: uma responsabilidade dos Desenvolvedores de Software</title>
