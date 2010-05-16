@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Blog do Rafael França</title>
+ <link href="http://www.rafaelfranca.com.br/atom.xml" rel="self"/>
+ <link href="http://www.rafaelfranca.com.br/"/>
+ <updated>2010-05-16T16:19:22-03:00</updated>
+ <id>http://www.rafaelfranca.com.br</id>
+ <author>
+   <name>Rafael Mendonça França</name>
+   <email>rafaelmfranca@gmail.com</email>
+ </author>
+ 
+ 
+ <entry>
+   <title>[Tradução] Manter-se atualizado: uma responsabilidade dos Desenvolvedores de Software</title>
+   <link href="http://www.rafaelfranca.com/Gestao/Produtividade/2009/09/30/traducao-manter-se-atualizado-uma-responsabilidade-dos-desenvolvedores-de-software.html"/>
+   <updated>2009-09-30T00:00:00-03:00</updated>
+   <id>http://www.rafaelfranca.com.br/Gestao/Produtividade/2009/09/30/traducao-manter-se-atualizado-uma-responsabilidade-dos-desenvolvedores-de-software</id>
+   <content type="html">&lt;p&gt;Este post é uma tradução livre do artigo de &lt;a href=&quot;http://blog.jayfields.com/&quot;&gt;Jay Fields&lt;/a&gt; intitulado &lt;a href=&quot;http://blog.jayfields.com/2009/08/staying-current-software-developers.html&quot;&gt;Staying Current: A Software Developer&amp;#8217;s Responsibility&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Eu tenho um ódio pessoal por conferências realizadas nos finais de semana&lt;sup class=&quot;footnote&quot; id=&quot;fnr1&quot;&gt;&lt;a href=&quot;#fn1&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. Para mim uma conferência no final de semana significa que eu vou está &amp;#8220;trabalhando&amp;#8221; por 12 dias seguidos.&lt;/p&gt;
+&lt;p&gt;Eu entendo que esta opinião não é universal.&lt;/p&gt;
+&lt;p&gt;Algumas pessoas têm problemas em pegar um tempo &amp;#8220;de folga&amp;#8221; para participar de conferências. Estas situações parecem ser uma incompreensão fundamental das responsabilidades de um desenvolvedor de software. Parte do seu emprego (desenvolvimento software) é sempre está atualizado tecnologicamente. O que significa fazer algumas pesquisas durante o seu dia.&lt;/p&gt;
+&lt;p&gt;(quase roubado diretamente de Ward em &lt;a href=&quot;http://c2.com/cgi/wiki?WardExplainsDebtMetaphor&quot;&gt;débito técnico&lt;/a&gt; [&lt;a href=&quot;http://www.akitaonrails.com/2008/12/18/tradu-o-d-vida-t-cnica&quot;&gt;dívida técnica&lt;/a&gt; por &lt;a href=&quot;http://www.akitaonrails.com/&quot;&gt;Fábio Akita&lt;/a&gt;])&lt;br /&gt;
+Se você gasta todo o seu dia codificando e nunca olhar para coisas novas, você está acumulando débitos de produtividade. Em prazos curtos, digamos na última semana de um release, faz sentido acumular um pequeno débito. Porém, em prazos longos, assumindo pouco ou nenhum pagamento, o interesse (interesse é igual a diferença entre suas habilidades e a situação atual) vai torna-lo um &lt;span class=&quot;caps&quot;&gt;NZPP&lt;/span&gt; (Net-Zero Producing Programmer). Em uma organização típica você pode se manter como um &lt;span class=&quot;caps&quot;&gt;NZPP&lt;/span&gt; por aproximadamente 6 meses e ir lentamente se tornando um &lt;a href=&quot;http://blog.jayfields.com/2009/01/cost-of-net-negative-producing.html&quot;&gt;&lt;span class=&quot;caps&quot;&gt;NNPP&lt;/span&gt;&lt;/a&gt; (&lt;a href=&quot;http://akitaonrails.com/2009/03/30/off-topic-net-negative-producing-programmer&quot;&gt;&lt;span class=&quot;caps&quot;&gt;NNPP&lt;/span&gt;&lt;/a&gt; por &lt;a href=&quot;http://www.akitaonrails.com/&quot;&gt;Fábio Akita&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;É sua responsabilidade não se tornar um &lt;span class=&quot;caps&quot;&gt;NZPP&lt;/span&gt; (ou um &lt;span class=&quot;caps&quot;&gt;NNPP&lt;/span&gt;). Muitos desenvolvedores de software talentosos se recusam a trabalhar com NZPPs. No momento em que você se torna um &lt;span class=&quot;caps&quot;&gt;NZPP&lt;/span&gt;, você dever declarar falência (ao que diz respeito ao desenvolvimento de software). Você geralmente tem duas escolhas: pegar um emprego que paga menos onde você pode aprender coisas novas ou mudar para outro papel. Se você quer ser um desenvolvedor de software, nenhum desses resultados é desejável.&lt;/p&gt;
+&lt;p&gt;Felizmente, você tem o poder para evitar torna-se um &lt;span class=&quot;caps&quot;&gt;NZPP&lt;/span&gt;. Muitos empregadores poderiam, de boa vontade, comprar-lhe livros técnicos ou enviá-lo para uma conferência técnica. Em minha opinião, mesmo que você não tire vantagem desses benefícios eles deveriam ser notados em sua revisão de performance. Não estar atualizado como um desenvolvedor de software, especialmente quando uma oportunidade é oferecida a você, é uma má prática de software.&lt;/p&gt;
+&lt;p&gt;Certa vez, eu criei uma lista de coisas que eu olho em potencias participantes da equipe.&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Você já tentou Desenvolvimento Dirigido a Testes? Você pode nomear alguma coisa que você gostou ou alguma coisa que você não gostou?&lt;/li&gt;
+	&lt;li&gt;Qual(is) linguagem(s) que estão ganhando popularidade, mas não estão ainda no mainstream, que você escreveu um Hello World?&lt;/li&gt;
+	&lt;li&gt;Você lê livros ou blogs procurando por novas ideias pelo menos (em média) uma vez a cada duas semanas?&lt;/li&gt;
+	&lt;li&gt;Você pelo menos tenta aprender uma nova linguagem a cada ano?&lt;/li&gt;
+	&lt;li&gt;Alguma vez você já executou uma ferramenta de cobertura de código ou complexidade ciclomática em sua base de códigos?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Uma pessoa disse algo sobre estas linhas:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Ninguém tem tempo pessoal livre para se dedicar a fazer todas essas coisas&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Esta é a falha fundamental. Empregados (e até mesmo alguns empregadores) parecem pensar que estas atividades deveriam ser feitas em seus tempos livres. Eu não posso discordar mais. Estas são coisas que um desenvolvedor responsável tem de fazer como parte de seu trabalho, por isto pode ser feito durante suas horas de trabalho.&lt;/p&gt;
+&lt;p&gt;20% do tempo não é algo que o Google inventou, isto é algo que eles nomearam, formalizando e tornando popular. A atividade em si é algo que bons desenvolvedores de software vêm fazendo a anos. Eu aplaudo o Google por tornar isto um padrão, garantindo assim que seus empregados sempre tenham a oportunidade de estarem sempre atualizados. No entanto, sua empresa não precisa padronizar 20% do tempo para você se manter atualizado.&lt;/p&gt;
+&lt;p&gt;É sua responsabilidade usar seu tempo em seu dia para ler um livro ou um blog.&lt;/p&gt;
+&lt;p&gt;Você deveria tirar vantagem de uma empresa para patrocinar uma viagem para uma conferência. Se você já participou de conferências antes e eles agregaram pouco valor, eu recomendo altamente conferências como a &lt;a href=&quot;http://qcon.infoq.com/&quot;&gt;Qcon&lt;/a&gt; e &lt;a href=&quot;http://jaoo.dk/&quot;&gt;&lt;span class=&quot;caps&quot;&gt;JAOO&lt;/span&gt;&lt;/a&gt; (Para o Brasil eu sugiro o &lt;a href=&quot;http://www.railssummit.com.br/&quot;&gt;Rails Summit Latin America&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Quando você começar a fazer pesquisas como parte do seu trabalho você vai descobrir que conferências são como trabalho, exceto que o foco é 100% em pesquisa. E, isto não é algo que você queira (ou deveria ter ido) gastar seu tempo pessoal, isto é somente outro dia produtivo para fazer o que você está responsável por fazer.&lt;/p&gt;
+&lt;p class=&quot;footnote&quot; id=&quot;fn1&quot;&gt;&lt;a href=&quot;#fnr1&quot;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; É por isso que Josh e eu realizamos a &lt;a href=&quot;http://speakerconf.com/&quot;&gt;SpeakerConf&lt;/a&gt; entre terça-feira e quinta-feira. Você pode ir para ela, participar e voltar para casa sem perder um dia no final de semana.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Padrão MVC</title>
+   <link href="http://www.rafaelfranca.com/Arquitetura/2009/08/24/padrao-mvc.html"/>
+   <updated>2009-08-24T00:00:00-03:00</updated>
+   <id>http://www.rafaelfranca.com.br/Arquitetura/2009/08/24/padrao-mvc</id>
+   <content type="html">&lt;p&gt;Quebrando um pouco a sequência de posts sobre o &lt;span class=&quot;caps&quot;&gt;GIT&lt;/span&gt;, hoje irei falar sobre o padrão &lt;span class=&quot;caps&quot;&gt;MVC&lt;/span&gt; (Model-View-Controller) a pedido de meu colega de trabalho no &lt;a href=&quot;http://www.grupoagencia.com.br&quot;&gt;Grupo Agência&lt;/a&gt;, &lt;a href=&quot;http://twitter.com/marciotoze&quot;&gt;@marciotoze&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;O padrão &lt;span class=&quot;caps&quot;&gt;MVC&lt;/span&gt; é um padrão arquitetural criado por &lt;a href=&quot;http://en.wikipedia.org/wiki/Trygve_Reenskaug&quot;&gt;Trygve Reenskaug&lt;/a&gt; em 1979 que divide as aplicações em três tipos de componentes: Modelo, Controlador e Visão. Esse padrão foi originalmente criado para implementar aplicações desktop com interface gráfica, e hoje a ideia é muito utilizada para aplicações Web.  Essa divisão em três componentes ajuda a separar responsabilidades, promovendo baixo &lt;a href=&quot;http://pt.wikipedia.org/wiki/Acoplamento&quot;&gt;acoplamento&lt;/a&gt; e alta &lt;a href=&quot;http://pt.wikipedia.org/wiki/Coes%C3%A3o&quot;&gt;coesão&lt;/a&gt;, o que facilita a manutenabilidade.&lt;/p&gt;
+&lt;p&gt;O &lt;span class=&quot;caps&quot;&gt;MVC&lt;/span&gt; está organizado da seguinte forma:&lt;/p&gt;
+&lt;div style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;/images/mvc-300x141.png&quot; title=&quot;Diagrama do Padrão MVC&quot; alt=&quot;Diagrama do Padrão MVC&quot; /&gt;&lt;/div&gt;
+&lt;p&gt;O Modelo (Model) fica com a responsabilidade de manter o estado da aplicação. Ele é mais que uma classe para armazenar os dados, nele devem está contidas todas as regras de negócio que se aplicam a esses dados. É o modelo também o responsável por comunicar-se com o banco de dados.&lt;/p&gt;
+&lt;p&gt;A Visão (View) fica com a responsabilidade de apresentar as informações do usuário. Essas informações geralmente são baseadas nos dados armazenados nos modelos.&lt;/p&gt;
+&lt;p&gt;O Controlador (Controller) interpreta as ações do usuário, as mapeia para chamadas do modelo e apresenta a visão correta para o usuário.&lt;/p&gt;
+&lt;p&gt;Frameworks com o &lt;a href=&quot;http://rubyonrails.org&quot;&gt;Ruby on Rails&lt;/a&gt; e o &lt;a href=&quot;http://www.cakephp.com.br/&quot;&gt;CakePHP&lt;/a&gt; utilizam-se desse padrão para escrever suas aplicações, e ele é uma das peças chaves para a produtividade destes frameworks.&lt;br /&gt;
+manutenabilidade&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Controle de Versões com o GIT - Parte 2</title>
+   <link href="http://www.rafaelfranca.com/Git/2009/08/14/controle-de-versao-com-git-parte-2.html"/>
+   <updated>2009-08-14T00:00:00-03:00</updated>
+   <id>http://www.rafaelfranca.com.br/Git/2009/08/14/controle-de-versao-com-git-parte-2</id>
+   <content type="html">&lt;p&gt;Essa é a segunda parte do meu tutorial básico sobre o &lt;span class=&quot;caps&quot;&gt;GIT&lt;/span&gt;. Neste tutorial irei mostrar como trabalhar com branching e resolver conflitos que podem ocorrer durante o merge.&lt;/p&gt;
+&lt;h1&gt;Trabalhando com branches&lt;/h1&gt;
+&lt;p&gt;Para criar uma novo branch a partir do commit atual utiliza-se o seguinte comando:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;git checkout -b novo_branch&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Para verificar quais são os branches existentes utilizamos o comando:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;git branch&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Para retornar para o branch master utilizamos os comando:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;git checkout master&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Para alterar entre os branches existentes o comando utilizado é:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;git checkout novo_branch&lt;/code&gt;&lt;/p&gt;
+&lt;h1&gt;Juntando dois branches&lt;/h1&gt;
+&lt;p&gt;Uma das coisas mais dispendiosas quando estamos trabalhando com o &lt;span class=&quot;caps&quot;&gt;SVN&lt;/span&gt; é juntar dois branches que estão em desenvolvimento. Dificilmente gastamos menos que 10 minutos para resolver todos os conflitos e unir dois branches. Algumas vezes isso causa muita dor de cabeça para o programador.&lt;/p&gt;
+&lt;p&gt;O &lt;span class=&quot;caps&quot;&gt;GIT&lt;/span&gt; possui um sistema de merge muito intuitivo. Poucas vezes o programador precisa intervir para resolver conflitos em seus merges. Para isso ele utiliza várias estratégias para fazer o merge.&lt;/p&gt;
+&lt;p&gt;O comando utilizado para fazer o merge é o seguinte:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;git merge master novo_branch&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Outro comando que podemos utilizar para juntar dois branches é o comando &lt;code&gt;rebase&lt;/code&gt;. A principal diferença do comando rebase para o merge é que ao invés de criar um novo commit com o resultado da junção dos dois branches o &lt;span class=&quot;caps&quot;&gt;GIT&lt;/span&gt; faz o fast-forward juntando as duas árvores de commits, mantendo, com isso, o histórico de commits feitos em ambos os branches e diminuindo o número de conflitos.&lt;/p&gt;
+&lt;p&gt;A figura a seguir mostra o comportamento do rebase.&lt;/p&gt;
+&lt;div style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;images/rebase4-300x124.png&quot; title=&quot;Rebase&quot; alt=&quot;Rebase&quot; /&gt;&lt;/div&gt;
+&lt;h1&gt;Resolvendo conflitos&lt;/h1&gt;
+&lt;p&gt;Algumas vezes quando utilizamos do merge ou até mesmo do rebase podem ocorrer alguns conflitos. Para resolve-los temos que editar os arquivos que causaram o conflito. Os arquivos com conflito geralmente se encontram com a seguinte estrutura:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;&lt;span class=&quot;lineno&quot;&gt;1&lt;/span&gt;   &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Person&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;2&lt;/span&gt;     &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;3&lt;/span&gt;   &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;HEAD&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:person&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rb&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;4&lt;/span&gt;       &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Pessoa: &amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;5&lt;/span&gt;   &lt;span class=&quot;o&quot;&gt;=======&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;6&lt;/span&gt;       &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;Nome: &amp;#39;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;7&lt;/span&gt;   &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;novo_branch&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:person&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rb&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;8&lt;/span&gt;     &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;9&lt;/span&gt;   &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;&lt;p&gt;Para resolver este conflito basta apagar as linhas que não são necessárias e depois dar o commit.&lt;br /&gt;
+No caso do rebase ele vai para o procedimento assim que achar o primeiro commit conflitante. Para continuar com o rebase é necessário primeiramente resolver o conflite e depois digitar o comando&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;git rebase --continue&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Caso seja necessário abortar um rebase utiliza-se o comando&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;git rebase --abort&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Eu particularmente prefiro utilizar uma ferramenta para resolver os conflitos, para isto eu utilizo o comando&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;git mergetool&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Existem diversas ferramentas para isto. Eu utilizo o &lt;a href=&quot;http://linux.die.net/man/1/gvimdiff&quot;&gt;gvimdiff&lt;/a&gt;, mas já utilizei o meld, que é uma ótima ferramenta para quem usa o gnome.&lt;/p&gt;
+&lt;h1&gt;Conclusão&lt;/h1&gt;
+&lt;p&gt;Encerro aqui esta segunda parte do tutorial do &lt;span class=&quot;caps&quot;&gt;GIT&lt;/span&gt;, semana que vem eu retorno com mais algumas considerações sobre o &lt;span class=&quot;caps&quot;&gt;GIT&lt;/span&gt;&lt;/p&gt;
+&lt;h1&gt;Referências&lt;/h1&gt;
+&lt;p&gt;Boa parte das informações deste post foram retiradas de:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;http://book.git-scm.comgit&quot;&gt;Git Book&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://gitcasts.com&quot;&gt;GitCasts&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Controle de Versões com o GIT - Parte 1</title>
+   <link href="http://www.rafaelfranca.com/Git/2009/08/07/controle-de-versao-com-git-parte-1.html"/>
+   <updated>2009-08-07T00:00:00-03:00</updated>
+   <id>http://www.rafaelfranca.com.br/Git/2009/08/07/controle-de-versao-com-git-parte-1</id>
+   <content type="html">&lt;p&gt;O &lt;span class=&quot;caps&quot;&gt;GIT&lt;/span&gt; é um sistema de controle de versão distribuído. Por isso ele difere um pouco dos sistemas de controle de versão que eram utilizados à algum anos atrás com o &lt;span class=&quot;caps&quot;&gt;SVN&lt;/span&gt; e o &lt;span class=&quot;caps&quot;&gt;CVS&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Em um sistema de controle de versão distribuído, ao invés de você fazer um &amp;#8220;checkout&amp;#8221; e copiar o topo do projeto, você faz um &amp;#8220;clone&amp;#8221; e obtém uma cópia completa do repositório. Com isso cada usuário tem todo o repositório em sua máquina e pode sobstituir o servidor caso haja alguma perda de informação. Além disso cada desenvolvedor pode trabalhar offline sem a necessidade de ter acesso ao repositório pela internet ou pela rede local. Assim que o repositório torna-se acessível basta ao desenvolvedor enviar as modificações feitas e corrigir possíveis conflitos.&lt;/p&gt;
+&lt;p&gt;Por falar em conflitos, o &lt;span class=&quot;caps&quot;&gt;GIT&lt;/span&gt; facilita muito o trabalho dos desenvolvedores em casos de conflitos, fazendo muitas vezes o trabalho de forma transparente.&lt;/p&gt;
+&lt;p&gt;Agora irei mostrar um pequeno tutorial de como trabalhar com o &lt;span class=&quot;caps&quot;&gt;GIT&lt;/span&gt;.&lt;/p&gt;
+&lt;h1&gt;Instalando&lt;/h1&gt;
+&lt;p&gt;Primeiro é necessário instalar o &lt;span class=&quot;caps&quot;&gt;GIT&lt;/span&gt;. Aqui irei apenas mostrar como instalar o &lt;span class=&quot;caps&quot;&gt;GIT&lt;/span&gt; no Linux, especificamente no Ubuntu. Para isso utilizo o comando:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo apt-get install git gitk&lt;/code&gt;&lt;/p&gt;
+&lt;h1&gt;Iniciando repositório&lt;/h1&gt;
+&lt;p&gt;Primeiramente eu crio o diretório em que eu irei iniciar o projeto e depois inicio um repositório &lt;span class=&quot;caps&quot;&gt;GIT&lt;/span&gt; nele.&lt;/p&gt;
+&lt;pre&gt;
+mkdir projeto
+cd projeto
+git init
+&lt;/pre&gt;
+&lt;h1&gt;Trabalhando no repositório&lt;/h1&gt;
+&lt;p&gt;Toda vez que preciso adicionar um arquivo no repositório eu faço da seguinte forma:&lt;/p&gt;
+&lt;pre&gt;
+touch arquivo.rb
+git add arquivo.rb
+git commit -m 'Adicionado o arquivo arquivo.rb'
+&lt;/pre&gt;
+&lt;p&gt;O &lt;span class=&quot;caps&quot;&gt;GIT&lt;/span&gt; tem o que ele chama de &amp;#8220;Área intermediária&amp;#8221;. Nesta área você pode configurar como o seu commit vai ficar antes de enviar ao repositório. Para isso você utiliza os comandos &lt;code&gt;add&lt;/code&gt; e &lt;code&gt;rm&lt;/code&gt; para adicionar e remover arquivos e diretório. Cuidado com o comando &lt;code&gt;rm&lt;/code&gt;. &lt;strong&gt;Se ele for utilizado sem a opção &lt;code&gt;--cached&lt;/code&gt; o arquivo será removido fisicamente do diretório&lt;/strong&gt;. Depois basta você utilizar o &lt;code&gt;comando&lt;/code&gt; commit para enviar as modificações para o repositório local.&lt;/p&gt;
+&lt;h1&gt;Enviando as modificações para o repositório remoto&lt;/h1&gt;
+&lt;p&gt;Pela natureza distribuída do &lt;span class=&quot;caps&quot;&gt;GIT&lt;/span&gt; é necessário ainda que as modificações que foram feitas no repositório local sejam enviadas para o repositório remoto para que outras pessoas possam ter acesso. Para isso utiliza-se o comando:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;git push origin master&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Onde origin é o nome do repositório remoto e master é o nome do branch.&lt;/p&gt;
+&lt;p&gt;Para adicionar o repositório remoto basta utilizar o comando:&lt;/p&gt;
+&lt;pre&gt;
+git remote add origin usuário@meurepositório.com.br:/home/usuário/repositório.git
+&lt;/pre&gt;
+&lt;h1&gt;Clonando um repositório remoto&lt;/h1&gt;
+&lt;p&gt;Para outras pessoas clonarem o repositório remoto utiliza-se o seguinte comando:&lt;/p&gt;
+&lt;pre&gt;
+git clone usuário@meurepositório.com.br:/home/usuário/repositório.git
+&lt;/pre&gt;
+&lt;h1&gt;Referências&lt;/h1&gt;
+&lt;p&gt;Por hoje é só. Vocês podem encontrar mais informações sobre o &lt;span class=&quot;caps&quot;&gt;GIT&lt;/span&gt; em:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;http://pt-br.gitready.com/&quot;&gt;Git ready&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://reinh.com/blog/2009/03/02/a-git-workflow-for-agile-teams.html&quot;&gt;A Git Workflow for Agile Teams&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://progit.org/book/&quot;&gt;Pro Git Book&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://akitaonrails.com/2008/4/3/micro-tutorial-de-git&quot;&gt;Micro Tutorial de &lt;span class=&quot;caps&quot;&gt;GIT&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://pt.whygitisbetterthanx.com/&quot;&gt;Por que &lt;span class=&quot;caps&quot;&gt;GIT&lt;/span&gt; é melhor que X&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+ </entry>
+ 
+ 
+</feed>
+

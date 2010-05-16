@@ -1,0 +1,25 @@
+---
+layout: post
+title: Padrão MVC
+keywords: mvc, patterns, pattern, arquitetura, design, ruby, rails, ruby on rails, rubyonrails, php
+description: Descrição do Padrão MVC
+categories: ["Arquitetura"]
+authors: ["Rafael Mendonça França"]
+---
+Quebrando um pouco a sequência de posts sobre o GIT, hoje irei falar sobre o padrão MVC (Model-View-Controller) a pedido de meu colega de trabalho no "Grupo Agência":http://www.grupoagencia.com.br, "@marciotoze":http://twitter.com/marciotoze.
+
+O padrão MVC é um padrão arquitetural criado por "Trygve Reenskaug":http://en.wikipedia.org/wiki/Trygve_Reenskaug em 1979 que divide as aplicações em três tipos de componentes: Modelo, Controlador e Visão. Esse padrão foi originalmente criado para implementar aplicações desktop com interface gráfica, e hoje a ideia é muito utilizada para aplicações Web.  Essa divisão em três componentes ajuda a separar responsabilidades, promovendo baixo "acoplamento":http://pt.wikipedia.org/wiki/Acoplamento e alta "coesão":http://pt.wikipedia.org/wiki/Coes%C3%A3o, o que facilita a manutenabilidade.
+
+O MVC está organizado da seguinte forma:
+
+div=. !/images/mvc-300x141.png(Diagrama do Padrão MVC)!
+
+O Modelo (Model) fica com a responsabilidade de manter o estado da aplicação. Ele é mais que uma classe para armazenar os dados, nele devem está contidas todas as regras de negócio que se aplicam a esses dados. É o modelo também o responsável por comunicar-se com o banco de dados.
+
+A Visão (View) fica com a responsabilidade de apresentar as informações do usuário. Essas informações geralmente são baseadas nos dados armazenados nos modelos.
+
+O Controlador (Controller) interpreta as ações do usuário, as mapeia para chamadas do modelo e apresenta a visão correta para o usuário.
+
+Frameworks com o "Ruby on Rails":http://rubyonrails.org e o "CakePHP":http://www.cakephp.com.br/ utilizam-se desse padrão para escrever suas aplicações, e ele é uma das peças chaves para a produtividade destes frameworks.
+manutenabilidade
+

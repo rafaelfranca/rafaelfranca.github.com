@@ -1,0 +1,76 @@
+---
+layout: post
+title: Controle de Versões com o GIT - Parte 1
+keywords: git, svn, dvcs, vcs, controle, versão, versao
+description: Controle de Versão com GIT
+categories: ["Git"]
+authors: ["Rafael Mendonça França"]
+---
+
+O GIT é um sistema de controle de versão distribuído. Por isso ele difere um pouco dos sistemas de controle de versão que eram utilizados à algum anos atrás com o SVN e o CVS.
+
+Em um sistema de controle de versão distribuído, ao invés de você fazer um "checkout" e copiar o topo do projeto, você faz um "clone" e obtém uma cópia completa do repositório. Com isso cada usuário tem todo o repositório em sua máquina e pode sobstituir o servidor caso haja alguma perda de informação. Além disso cada desenvolvedor pode trabalhar offline sem a necessidade de ter acesso ao repositório pela internet ou pela rede local. Assim que o repositório torna-se acessível basta ao desenvolvedor enviar as modificações feitas e corrigir possíveis conflitos.
+
+Por falar em conflitos, o GIT facilita muito o trabalho dos desenvolvedores em casos de conflitos, fazendo muitas vezes o trabalho de forma transparente.
+
+Agora irei mostrar um pequeno tutorial de como trabalhar com o GIT.
+
+h1. Instalando
+
+Primeiro é necessário instalar o GIT. Aqui irei apenas mostrar como instalar o GIT no Linux, especificamente no Ubuntu. Para isso utilizo o comando:
+
+@sudo apt-get install git gitk@
+
+h1. Iniciando repositório
+
+Primeiramente eu crio o diretório em que eu irei iniciar o projeto e depois inicio um repositório GIT nele.
+
+<pre>
+mkdir projeto
+cd projeto
+git init
+</pre>
+
+h1. Trabalhando no repositório
+
+Toda vez que preciso adicionar um arquivo no repositório eu faço da seguinte forma:
+
+<pre>
+touch arquivo.rb
+git add arquivo.rb
+git commit -m 'Adicionado o arquivo arquivo.rb'
+</pre>
+
+O GIT tem o que ele chama de "Área intermediária". Nesta área você pode configurar como o seu commit vai ficar antes de enviar ao repositório. Para isso você utiliza os comandos @add@ e @rm@ para adicionar e remover arquivos e diretório. Cuidado com o comando @rm@. *Se ele for utilizado sem a opção @--cached@ o arquivo será removido fisicamente do diretório*. Depois basta você utilizar o @comando@ commit para enviar as modificações para o repositório local.
+
+h1. Enviando as modificações para o repositório remoto
+
+Pela natureza distribuída do GIT é necessário ainda que as modificações que foram feitas no repositório local sejam enviadas para o repositório remoto para que outras pessoas possam ter acesso. Para isso utiliza-se o comando:
+
+@git push origin master@
+
+Onde origin é o nome do repositório remoto e master é o nome do branch.
+
+Para adicionar o repositório remoto basta utilizar o comando:
+
+<pre>
+git remote add origin usuário@meurepositório.com.br:/home/usuário/repositório.git
+</pre>
+
+h1. Clonando um repositório remoto
+
+Para outras pessoas clonarem o repositório remoto utiliza-se o seguinte comando:
+
+<pre>
+git clone usuário@meurepositório.com.br:/home/usuário/repositório.git
+</pre>
+
+h1. Referências
+
+Por hoje é só. Vocês podem encontrar mais informações sobre o GIT em:
+
+* "Git ready":http://pt-br.gitready.com/
+* "A Git Workflow for Agile Teams":http://reinh.com/blog/2009/03/02/a-git-workflow-for-agile-teams.html
+* "Pro Git Book":http://progit.org/book/
+* "Micro Tutorial de GIT":http://akitaonrails.com/2008/4/3/micro-tutorial-de-git
+* "Por que GIT é melhor que X":http://pt.whygitisbetterthanx.com/

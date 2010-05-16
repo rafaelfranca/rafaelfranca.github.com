@@ -1,0 +1,46 @@
+---
+layout: post
+title: "[Tradução] Manter-se atualizado: uma responsabilidade dos Desenvolvedores de Software"
+keywords: software, development, desenvolvimento
+description: "Tradução do artigo de Jay Fields intitulado Staying Current: A Software Developers' Responsibility."
+categories: ['Produtividade', 'Gestao']
+authors: ["Rafael Mendonça França"]
+---
+Este post é uma tradução livre do artigo de "Jay Fields":http://blog.jayfields.com/ intitulado "Staying Current: A Software Developer's Responsibility":http://blog.jayfields.com/2009/08/staying-current-software-developers.html.
+
+Eu tenho um ódio pessoal por conferências realizadas nos finais de semana[1]. Para mim uma conferência no final de semana significa que eu vou está "trabalhando" por 12 dias seguidos.
+
+Eu entendo que esta opinião não é universal.
+
+Algumas pessoas têm problemas em pegar um tempo "de folga" para participar de conferências. Estas situações parecem ser uma incompreensão fundamental das responsabilidades de um desenvolvedor de software. Parte do seu emprego (desenvolvimento software) é sempre está atualizado tecnologicamente. O que significa fazer algumas pesquisas durante o seu dia.
+
+(quase roubado diretamente de Ward em "débito técnico":http://c2.com/cgi/wiki?WardExplainsDebtMetaphor ["dívida técnica":http://www.akitaonrails.com/2008/12/18/tradu-o-d-vida-t-cnica por "Fábio Akita":http://www.akitaonrails.com/])
+Se você gasta todo o seu dia codificando e nunca olhar para coisas novas, você está acumulando débitos de produtividade. Em prazos curtos, digamos na última semana de um release, faz sentido acumular um pequeno débito. Porém, em prazos longos, assumindo pouco ou nenhum pagamento, o interesse (interesse é igual a diferença entre suas habilidades e a situação atual) vai torna-lo um NZPP (Net-Zero Producing Programmer). Em uma organização típica você pode se manter como um NZPP por aproximadamente 6 meses e ir lentamente se tornando um "NNPP":http://blog.jayfields.com/2009/01/cost-of-net-negative-producing.html ("NNPP":http://akitaonrails.com/2009/03/30/off-topic-net-negative-producing-programmer por "Fábio Akita":http://www.akitaonrails.com/).
+
+É sua responsabilidade não se tornar um NZPP (ou um NNPP). Muitos desenvolvedores de software talentosos se recusam a trabalhar com NZPPs. No momento em que você se torna um NZPP, você dever declarar falência (ao que diz respeito ao desenvolvimento de software). Você geralmente tem duas escolhas: pegar um emprego que paga menos onde você pode aprender coisas novas ou mudar para outro papel. Se você quer ser um desenvolvedor de software, nenhum desses resultados é desejável.
+
+Felizmente, você tem o poder para evitar torna-se um NZPP. Muitos empregadores poderiam, de boa vontade, comprar-lhe livros técnicos ou enviá-lo para uma conferência técnica. Em minha opinião, mesmo que você não tire vantagem desses benefícios eles deveriam ser notados em sua revisão de performance. Não estar atualizado como um desenvolvedor de software, especialmente quando uma oportunidade é oferecida a você, é uma má prática de software.
+
+Certa vez, eu criei uma lista de coisas que eu olho em potencias participantes da equipe.
+
+  * Você já tentou Desenvolvimento Dirigido a Testes? Você pode nomear alguma coisa que você gostou ou alguma coisa que você não gostou?
+  * Qual(is) linguagem(s) que estão ganhando popularidade, mas não estão ainda no mainstream, que você escreveu um Hello World?
+  * Você lê livros ou blogs procurando por novas ideias pelo menos (em média) uma vez a cada duas semanas?
+  * Você pelo menos tenta aprender uma nova linguagem a cada ano?
+  * Alguma vez você já executou uma ferramenta de cobertura de código ou complexidade ciclomática em sua base de códigos?
+
+Uma pessoa disse algo sobre estas linhas:
+
+bq. Ninguém tem tempo pessoal livre para se dedicar a fazer todas essas coisas
+
+Esta é a falha fundamental. Empregados (e até mesmo alguns empregadores) parecem pensar que estas atividades deveriam ser feitas em seus tempos livres. Eu não posso discordar mais. Estas são coisas que um desenvolvedor responsável tem de fazer como parte de seu trabalho, por isto pode ser feito durante suas horas de trabalho.
+
+20% do tempo não é algo que o Google inventou, isto é algo que eles nomearam, formalizando e tornando popular. A atividade em si é algo que bons desenvolvedores de software vêm fazendo a anos. Eu aplaudo o Google por tornar isto um padrão, garantindo assim que seus empregados sempre tenham a oportunidade de estarem sempre atualizados. No entanto, sua empresa não precisa padronizar 20% do tempo para você se manter atualizado.
+
+É sua responsabilidade usar seu tempo em seu dia para ler um livro ou um blog.
+
+Você deveria tirar vantagem de uma empresa para patrocinar uma viagem para uma conferência. Se você já participou de conferências antes e eles agregaram pouco valor, eu recomendo altamente conferências como a "Qcon":http://qcon.infoq.com/ e "JAOO":http://jaoo.dk/ (Para o Brasil eu sugiro o "Rails Summit Latin America":http://www.railssummit.com.br/).
+
+Quando você começar a fazer pesquisas como parte do seu trabalho você vai descobrir que conferências são como trabalho, exceto que o foco é 100% em pesquisa. E, isto não é algo que você queira (ou deveria ter ido) gastar seu tempo pessoal, isto é somente outro dia produtivo para fazer o que você está responsável por fazer.
+
+fn1. É por isso que Josh e eu realizamos a "SpeakerConf":http://speakerconf.com/ entre terça-feira e quinta-feira. Você pode ir para ela, participar e voltar para casa sem perder um dia no final de semana.

@@ -1,0 +1,12 @@
+---
+layout: master
+---
+<article class="post prepend-1 append-1 span-15">
+  <header>
+    <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+    <h2>Postado por {{ page.authors }} em {{ page.date | date: "%d/%m/%Y" }}</h2>
+    <h2>Categorias: {{ page.categories | join: ", " }}</h2>
+  </header>
+  {{ content }}
+</article>
+

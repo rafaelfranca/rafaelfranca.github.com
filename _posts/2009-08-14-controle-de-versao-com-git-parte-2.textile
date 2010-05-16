@@ -1,0 +1,86 @@
+---
+layout: post
+title: Controle de Versões com o GIT - Parte 2
+keywords: git, svn, dvcs, vcs, controle, versão, versao, vim, rebase, merge, branch, branching
+description: Controle de Versão com GIT - Parte 2
+categories: ["Git"]
+authors: ["Rafael Mendonça França"]
+---
+Essa é a segunda parte do meu tutorial básico sobre o GIT. Neste tutorial irei mostrar como trabalhar com branching e resolver conflitos que podem ocorrer durante o merge.
+
+h1. Trabalhando com branches
+
+Para criar uma novo branch a partir do commit atual utiliza-se o seguinte comando:
+
+@git checkout -b novo_branch@
+
+Para verificar quais são os branches existentes utilizamos o comando:
+
+@git branch@
+
+Para retornar para o branch master utilizamos os comando:
+
+@git checkout master@
+
+Para alterar entre os branches existentes o comando utilizado é:
+
+@git checkout novo_branch@
+
+h1. Juntando dois branches
+
+Uma das coisas mais dispendiosas quando estamos trabalhando com o SVN é juntar dois branches que estão em desenvolvimento. Dificilmente gastamos menos que 10 minutos para resolver todos os conflitos e unir dois branches. Algumas vezes isso causa muita dor de cabeça para o programador.
+
+O GIT possui um sistema de merge muito intuitivo. Poucas vezes o programador precisa intervir para resolver conflitos em seus merges. Para isso ele utiliza várias estratégias para fazer o merge.
+
+O comando utilizado para fazer o merge é o seguinte:
+
+@git merge master novo_branch@
+
+Outro comando que podemos utilizar para juntar dois branches é o comando @rebase@. A principal diferença do comando rebase para o merge é que ao invés de criar um novo commit com o resultado da junção dos dois branches o GIT faz o fast-forward juntando as duas árvores de commits, mantendo, com isso, o histórico de commits feitos em ambos os branches e diminuindo o número de conflitos.
+
+A figura a seguir mostra o comportamento do rebase.
+
+div=. !images/rebase4-300x124.png(Rebase)!
+
+h1. Resolvendo conflitos
+
+Algumas vezes quando utilizamos do merge ou até mesmo do rebase podem ocorrer alguns conflitos. Para resolve-los temos que editar os arquivos que causaram o conflito. Os arquivos com conflito geralmente se encontram com a seguinte estrutura:
+
+{% highlight ruby linenos %}
+  class Person
+    def name(text)
+  <<<<<<< HEAD:person.rb
+      puts "Pessoa: " + text
+  =======
+      puts 'Nome: ' + text
+  >>>>>>> novo_branch:person.rb
+    end
+  end
+{% endhighlight %}
+
+Para resolver este conflito basta apagar as linhas que não são necessárias e depois dar o commit.
+No caso do rebase ele vai para o procedimento assim que achar o primeiro commit conflitante. Para continuar com o rebase é necessário primeiramente resolver o conflite e depois digitar o comando
+
+@git rebase --continue@
+
+Caso seja necessário abortar um rebase utiliza-se o comando
+
+@git rebase --abort@
+
+Eu particularmente prefiro utilizar uma ferramenta para resolver os conflitos, para isto eu utilizo o comando
+
+@git mergetool@
+
+Existem diversas ferramentas para isto. Eu utilizo o "gvimdiff":http://linux.die.net/man/1/gvimdiff, mas já utilizei o meld, que é uma ótima ferramenta para quem usa o gnome.
+
+h1. Conclusão
+
+Encerro aqui esta segunda parte do tutorial do GIT, semana que vem eu retorno com mais algumas considerações sobre o GIT
+
+h1. Referências
+
+Boa parte das informações deste post foram retiradas de:
+
+* "Git Book":http://book.git-scm.comgit
+* "GitCasts":http://gitcasts.com
+
