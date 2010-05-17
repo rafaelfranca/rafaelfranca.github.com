@@ -1,0 +1,15 @@
+---
+layout: post
+title: Apresentação da Secomp - UFS
+keywords: ruby, rails, rubyonrails, ruby on rails, tdd, bdd, agile, secomp, ufs, git, rspec, cucumber
+description: Apresentação do minicurso de Ruby on Rails da Secomp - UFS
+categories: ["Ruby"]
+authors: ["Rafael Mendonça França"]
+---
+Aqui está minha apresentação do minicurso de Ruby on Rails da "Secomp - UFS":http://dcomp-ufs.sytes.net/semana/ intitulado Desenvolvimento Dirigido à Comportamente com Ruby on Rails
+
+<div style="width:425px" id="__ss_4119928"><strong style="display:block;margin:12px 0 4px"><a href="http://www.slideshare.net/rafael.ufs/apresentao-de-ruby-on-rails-secompufs" title="Apresentação de Ruby on Rails - Secomp/UFS">Apresentação de Ruby on Rails - Secomp/UFS</a></strong><object id="__sse4119928" width="425" height="355"><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=rails-100516202020-phpapp02&stripped_title=apresentao-de-ruby-on-rails-secompufs" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed name="__sse4119928" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=rails-100516202020-phpapp02&stripped_title=apresentao-de-ruby-on-rails-secompufs" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="355"></embed></object><div style="padding:5px 0 12px">View more <a href="http://www.slideshare.net/">presentations</a> from <a href="http://www.slideshare.net/rafael.ufs">Rafael França</a>.</div></div>
+
+Neste minicurso eu tentei passar para os presentes uma forma diferente de desenvolver software baseada em práticas ágeis como o "TDD":http://pt.wikipedia.org/wiki/Test_Driven_Development e o "BDD":http://pt.wikipedia.org/wiki/Behavior_Driven_Development, utilizando ferramentas do Ruby como o "Cucumber":http://cukes.info e "Rspec":htpp://rspec.info.
+
+Infelizmente o minicurso não foi como eu esperava, mas pelo menos deu para despertar interesse pela linguagem e serviu de aprendizado. Na próxima vez com certeza irei fazer um minicurso bem melhor.
