@@ -28,7 +28,7 @@ body {
   #header h1 {
     margin-bottom: 0px;
   }
-  
+
   #header h1 a {
     font-weight: bold;
     text-decoration: none;
@@ -100,7 +100,7 @@ article.post h1 a:hover {
   color: #2d83d5;
 }
 
-article.post h2 {
+article.post header h2 {
   font-size: 12px;
   color: #6a6a6a;
 }
@@ -114,11 +114,12 @@ hr {
   background-color: #000;
 }
 
-#parceiros {
-  margin: 20px 0;
+article.post h2 {
+  font-size: 18px;
 }
 
-aside {
+#parceiros {
+  margin: 20px 0;
 }
 
 aside h1 {

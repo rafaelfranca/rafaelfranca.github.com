@@ -4,13 +4,67 @@
  <title>Blog do Rafael França</title>
  <link href="http://www.rafaelfranca.com.br/atom.xml" rel="self"/>
  <link href="http://www.rafaelfranca.com.br/"/>
- <updated>2010-05-17T20:24:40-03:00</updated>
+ <updated>2010-07-08T21:42:49-03:00</updated>
  <id>http://www.rafaelfranca.com.br</id>
  <author>
    <name>Rafael Mendonça França</name>
    <email>rafaelmfranca@gmail.com</email>
  </author>
  
+ 
+ <entry>
+   <title>Sobre o HTML5</title>
+   <link href="http://www.rafaelfranca.com/Web/2010/07/08/sobre-o-html5.html"/>
+   <updated>2010-07-08T00:00:00-03:00</updated>
+   <id>http://www.rafaelfranca.com.br/Web/2010/07/08/sobre-o-html5</id>
+   <content type="html">&lt;p&gt;A minha principal motivação para este post é que algumas pessoas não conhecem o HTML5 ou pensam que ele é apenas um substituto para o Flash.&lt;/p&gt;
+&lt;p&gt;HTML5 é a nova versão da linguagem de marcação mais utilizada na internet, o &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt;. A versão anterior data de 1997, o que mostra que estamos bastante atrasados dada a velocidade que a internet cresce e evolui.&lt;/p&gt;
+&lt;p&gt;Pressionada pelos desenvolvedores, que estavam cansados de sofrer com as diferentes implementações dos navegadores (O Internet Explorer o mais problemático) a w3c, comité responsável por definir os padrões da internet, resolveu lançar uma nova versão do &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt; com ajuda dos desenvolvedores dos principais navegadores do mercado, &lt;a href=&quot;http://www.mozilla.com/firefox/&quot;&gt;Mozilla Firefox&lt;/a&gt;, &lt;a href=&quot;http://www.google.com.br/chrome&quot;&gt;Google Chrome&lt;/a&gt;, &lt;a href=&quot;http://www.opera.com/&quot;&gt;Opera&lt;/a&gt;, &lt;a href=&quot;http://www.apple.com/safari/&quot;&gt;Safari&lt;/a&gt; e mais recentemente o &lt;a href=&quot;http://ie.microsoft.com/testdrive/&quot;&gt;Microsoft Internet Explorer&lt;/a&gt; que promete ser totalmente compatível com a especificação do HTML5 em sua versão 9.&lt;/p&gt;
+&lt;p&gt;Algumas grandes empresas estão apoiando o HTML5, como é o caso da apple que &lt;a href=&quot;http://www.apple.com/html5/&quot;&gt;criou uma página&lt;/a&gt; exclusivamente para divulgar-lo. A Apple também é responsável pelas recentes discursões sobre o HTML5 X Flash, já que a empresa deixou de suportar a tecnologia da Adobe em seus aparelhos como o iPad e o iPhone 4. O navegador da Apple também é um dos que mais estão em conformidade com o HTML5. O Safari utiliza uma versão modificada do &lt;a href=&quot;http://webkit.org/&quot;&gt;WebKit&lt;/a&gt;, um motor de renderização open source, o mesmo utilizado pelo Google Chrome. O Google recentemente lançou um portal com tutoriais, apresentações e várias fontes para desenvolvedores o &lt;a href=&quot;http://www.html5rocks.com/&quot;&gt;HTML5ROCKS&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Muitos dos novos itens dessa especificação já estão em funcionamente na maioria dos navegadores, sendo essa uma iniciativa para padronizar a implementação dessas funcionalidades.&lt;/p&gt;
+&lt;p&gt;Irei detalhar algumas das novidades desta versão da especificação&lt;/p&gt;
+&lt;h2&gt;Novos elementos como &lt;code&gt;&amp;lt;canvas&amp;gt;&lt;/code&gt; e &lt;code&gt;&amp;lt;video&amp;gt;&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;Esses novos elementos são os principais responsáveis por toda a discurssão sobre HTML5 e Flash.&lt;/p&gt;
+&lt;p&gt;Segundo a especificação do &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt; 5 o elemento &lt;code&gt;&amp;lt;canvas&amp;gt;&lt;/code&gt; é &amp;#8220;um retângulo que pode ser utilizado para renderizar gráficos, jogos ou outras imagens visuais sobre demanda&amp;#8221;.&lt;/p&gt;
+&lt;p&gt;Nele o desenvolvedor pode desenhar via javascript o que ele queira, linhas, pontos, circulos, fotos, gráficos. Já houveram até algumas brincadeiras com esse elemento, como o jogo &lt;a href=&quot;http://www.google.com/pacman/&quot;&gt;Pac-man&lt;/a&gt; na página inicial do Google e a implementação do &lt;a href=&quot;http://techcrunch.com/2010/04/01/google-html5-quake/&quot;&gt;Quake 2&lt;/a&gt; totalmente em HTML5.&lt;/p&gt;
+&lt;p&gt;O elemento &lt;code&gt;&amp;lt;video&amp;gt;&lt;/code&gt; acaba com a dependência de plugins de terciros como o Adobe Flash e o Quicktime para apresentar vídeos numa página web. Com ele o desenvolvedor pode ciar seu próprio player, que pode rodar em qualquer nevegador sem necessidade de instalação de plugins pelo usuário. O Youtube já tem &lt;a href=&quot;htt//www.youtube.com/html5&quot;&gt;uma versão do site&lt;/a&gt; que utiliza HTML5.&lt;/p&gt;
+&lt;h2&gt;Novos campos para formulário como &lt;code&gt;&amp;lt;email&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;lt;url&amp;gt;&lt;/code&gt; e &lt;code&gt;&amp;lt;number&amp;gt;&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;Alguns novos tipos de campos foram adicionados nessa versão da especificação. Agora o desenvolvedor pode adicionar mascaras, validações e diversos outros atributos sem a necessidade de utilizar javascript para esse fim.&lt;/p&gt;
+&lt;h2&gt;Uma melhor organização semântica do &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt; adicionada por elementos como &lt;code&gt;&amp;lt;section&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;lt;article&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;lt;header&amp;gt;&lt;/code&gt; e &lt;code&gt;&amp;lt;nav&amp;gt;&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;Agora ficou mais fácil e intuitivo organizar o seu código &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt;. Identificar um menu por exemplo está bem mais simple com a adição do elemento &lt;code&gt;&amp;lt;nav&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Nas versões anteriores o desenvolvedor se utilizada de algumas convensões para este fim como o a seguir.&lt;/p&gt;
+&lt;pre&gt;
+&amp;lt;div id=&quot;menu&quot;&amp;gt;
+  &amp;lt;ul&amp;gt;
+    &amp;lt;li&amp;gt;Item 1&amp;lt;/li&amp;gt;
+    &amp;lt;li&amp;gt;Item 2&amp;lt;/li&amp;gt;
+  &amp;lt;/ul&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/pre&gt;
+&lt;p&gt;Hoje podemos fazer a mesma coisa da seguinte forma.&lt;/p&gt;
+&lt;pre&gt;
+&amp;lt;nav id=&quot;menu&quot;&amp;gt;
+  &amp;lt;ul&amp;gt;
+    &amp;lt;li&amp;gt;Item 1&amp;lt;/li&amp;gt;
+    &amp;lt;li&amp;gt;Item 2&amp;lt;/li&amp;gt;
+  &amp;lt;/ul&amp;gt;
+&amp;lt;/nav&amp;gt;
+&lt;/pre&gt;
+&lt;p&gt;Isso não é uma mudança perceptível pelo usuário final, mas com certeza irá auxiliar e muito os desenvolvedores e os motores de busca que vão conseguir ter mais informações sobre os elementos de uma página.&lt;/p&gt;
+&lt;h2&gt;Aplicações Offline&lt;/h2&gt;
+&lt;p&gt;Essa é uma funcionalidade que será bastante aproveitada por aplicações como o Gmail. Agora será possível que a aplicações funcione sem a necessidade de está conectado a internet. Assim o usuário pode ler seus emails a qualquer momento, sem que ele precise está conectado.&lt;/p&gt;
+&lt;p&gt;Isso já era possível graças ao plugin do Google chamado &lt;a href=&quot;http://gears.google.com&quot;&gt;Google Gears&lt;/a&gt;, que teve seu &lt;a href=&quot;http://gearsblog.blogspot.com/2010/02/hello-html5.html&quot;&gt;desenvolvimento descontinuado&lt;/a&gt; com o surgimento do HTML5.&lt;/p&gt;
+&lt;h2&gt;Possibilidade de rodar código javascript em um processo separado do navegador&lt;/h2&gt;
+&lt;p&gt;O principal ganho dessa funcionalidade é que agora códigos javascript que demoram muito tempo para processar podem rodar em outro processo, fazendo com que o nevegador não deixe de responder durante o processamento. Em algumas aplicações web o navegador deixava de responder por alguns instantes, fazendo com que o usuário não pudesse fazer mais nenhuma ação.&lt;/p&gt;
+&lt;h2&gt;Uma forma de adicionar informações sobre sua localização geográfica.&lt;/h2&gt;
+&lt;p&gt;Com isso você pode compartilhar com pessoas que você confia sua localização geográfica, utilizando seu endereço IP, sua conexão wireless, que torre de telefonia você está conectado ou seu &lt;span class=&quot;caps&quot;&gt;GPS&lt;/span&gt; para obter informações de sua latitude e longitude.&lt;/p&gt;
+&lt;h2&gt;Algumas fontes adicionais de informação&lt;/h2&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;http://diveintohtml5.org/&quot;&gt;Dive Into HTML5&lt;/a&gt; por Mark Pilgrim&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://www.w3.org/TR/html5-diff/&quot;&gt;HTML5 differences from HTML4&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://www.w3.org/TR/html5/&quot;&gt;Especificação do HTML5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+ </entry>
  
  <entry>
    <title>Apresentação da Secomp - UFS</title>

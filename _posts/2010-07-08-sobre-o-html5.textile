@@ -1,0 +1,81 @@
+---
+layout: post
+title: Sobre o HTML5
+Keywords: html, html5
+description: Explicando o que é o HTML5 e algumas de suas novas funcionalidades
+categories: ["Web"]
+authors: ["Rafael Mendonça França"]
+---
+A minha principal motivação para este post é que algumas pessoas não conhecem o HTML5 ou pensam que ele é apenas um substituto para o Flash.
+
+HTML5 é a nova versão da linguagem de marcação mais utilizada na internet, o HTML. A versão anterior data de 1997, o que mostra que estamos bastante atrasados dada a velocidade que a internet cresce e evolui.
+
+Pressionada pelos desenvolvedores, que estavam cansados de sofrer com as diferentes implementações dos navegadores (O Internet Explorer o mais problemático) a w3c, comité responsável por definir os padrões da internet, resolveu lançar uma nova versão do HTML com ajuda dos desenvolvedores dos principais navegadores do mercado, "Mozilla Firefox":http://www.mozilla.com/firefox/, "Google Chrome":http://www.google.com.br/chrome, "Opera":http://www.opera.com/, "Safari":http://www.apple.com/safari/ e mais recentemente o "Microsoft Internet Explorer":http://ie.microsoft.com/testdrive/ que promete ser totalmente compatível com a especificação do HTML5 em sua versão 9.
+
+Algumas grandes empresas estão apoiando o HTML5, como é o caso da apple que "criou uma página":http://www.apple.com/html5/ exclusivamente para divulgar-lo. A Apple também é responsável pelas recentes discursões sobre o HTML5 X Flash, já que a empresa deixou de suportar a tecnologia da Adobe em seus aparelhos como o iPad e o iPhone 4. O navegador da Apple também é um dos que mais estão em conformidade com o HTML5. O Safari utiliza uma versão modificada do "WebKit":http://webkit.org/, um motor de renderização open source, o mesmo utilizado pelo Google Chrome. O Google recentemente lançou um portal com tutoriais, apresentações e várias fontes para desenvolvedores o "HTML5ROCKS":http://www.html5rocks.com/.
+
+Muitos dos novos itens dessa especificação já estão em funcionamente na maioria dos navegadores, sendo essa uma iniciativa para padronizar a implementação dessas funcionalidades.
+
+Irei detalhar algumas das novidades desta versão da especificação
+
+h2. Novos elementos como @<canvas>@ e @<video>@
+
+Esses novos elementos são os principais responsáveis por toda a discurssão sobre HTML5 e Flash.
+
+Segundo a especificação do HTML 5 o elemento @<canvas>@ é "um retângulo que pode ser utilizado para renderizar gráficos, jogos ou outras imagens visuais sobre demanda".
+
+Nele o desenvolvedor pode desenhar via javascript o que ele queira, linhas, pontos, circulos, fotos, gráficos. Já houveram até algumas brincadeiras com esse elemento, como o jogo "Pac-man":http://www.google.com/pacman/ na página inicial do Google e a implementação do "Quake 2":http://techcrunch.com/2010/04/01/google-html5-quake/ totalmente em HTML5.
+
+O elemento @<video>@ acaba com a dependência de plugins de terciros como o Adobe Flash e o Quicktime para apresentar vídeos numa página web. Com ele o desenvolvedor pode ciar seu próprio player, que pode rodar em qualquer nevegador sem necessidade de instalação de plugins pelo usuário. O Youtube já tem "uma versão do site":htt//www.youtube.com/html5 que utiliza HTML5.
+
+h2.  Novos campos para formulário como @<email>@, @<url>@ e @<number>@
+
+Alguns novos tipos de campos foram adicionados nessa versão da especificação. Agora o desenvolvedor pode adicionar mascaras, validações e diversos outros atributos sem a necessidade de utilizar javascript para esse fim.
+
+h2. Uma melhor organização semântica do HTML adicionada por elementos como @<section>@, @<article>@, @<header>@ e @<nav>@
+
+Agora ficou mais fácil e intuitivo organizar o seu código HTML. Identificar um menu por exemplo está bem mais simple com a adição do elemento @<nav>@.
+
+Nas versões anteriores o desenvolvedor se utilizada de algumas convensões para este fim como o a seguir.
+
+<pre>
+<div id="menu">
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+  </ul>
+</div>
+</pre>
+
+Hoje podemos fazer a mesma coisa da seguinte forma.
+
+<pre>
+<nav id="menu">
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+  </ul>
+</nav>
+</pre>
+
+Isso não é uma mudança perceptível pelo usuário final, mas com certeza irá auxiliar e muito os desenvolvedores e os motores de busca que vão conseguir ter mais informações sobre os elementos de uma página.
+
+h2. Aplicações Offline
+
+Essa é uma funcionalidade que será bastante aproveitada por aplicações como o Gmail. Agora será possível que a aplicações funcione sem a necessidade de está conectado a internet. Assim o usuário pode ler seus emails a qualquer momento, sem que ele precise está conectado.
+
+Isso já era possível graças ao plugin do Google chamado "Google Gears":http://gears.google.com, que teve seu "desenvolvimento descontinuado":http://gearsblog.blogspot.com/2010/02/hello-html5.html com o surgimento do HTML5.
+
+h2. Possibilidade de rodar código javascript em um processo separado do navegador
+
+O principal ganho dessa funcionalidade é que agora códigos javascript que demoram muito tempo para processar podem rodar em outro processo, fazendo com que o nevegador não deixe de responder durante o processamento. Em algumas aplicações web o navegador deixava de responder por alguns instantes, fazendo com que o usuário não pudesse fazer mais nenhuma ação.
+
+h2. Uma forma de adicionar informações sobre sua localização geográfica.
+
+Com isso você pode compartilhar com pessoas que você confia sua localização geográfica, utilizando seu endereço IP, sua conexão wireless, que torre de telefonia você está conectado ou seu GPS para obter informações de sua latitude e longitude.
+
+h2. Algumas fontes adicionais de informação
+
+* "Dive Into HTML5":http://diveintohtml5.org/ por Mark Pilgrim
+* "HTML5 differences from HTML4":http://www.w3.org/TR/html5-diff/
+* "Especificação do HTML5":http://www.w3.org/TR/html5/
