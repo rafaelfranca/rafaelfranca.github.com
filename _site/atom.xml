@@ -4,13 +4,41 @@
  <title>Blog do Rafael França</title>
  <link href="http://www.rafaelfranca.com.br/atom.xml" rel="self"/>
  <link href="http://www.rafaelfranca.com.br/"/>
- <updated>2010-07-08T21:52:05-03:00</updated>
+ <updated>2010-08-30T22:01:11-03:00</updated>
  <id>http://www.rafaelfranca.com.br</id>
  <author>
    <name>Rafael Mendonça França</name>
    <email>rafaelmfranca@gmail.com</email>
  </author>
  
+ 
+ <entry>
+   <title>Preparando o ambiente Ruby</title>
+   <link href="http://www.rafaelfranca.com/Ruby/2010/08/30/preparando-o-ambiente-ruby.html"/>
+   <updated>2010-08-30T00:00:00-03:00</updated>
+   <id>http://www.rafaelfranca.com.br/Ruby/2010/08/30/preparando-o-ambiente-ruby</id>
+   <content type="html">&lt;p&gt;Há algumas semanas tivemos a primeira sessão do &lt;a href=&quot;http://groups.google.com/group/dojo-se&quot;&gt;Dojo-SE&lt;/a&gt;. Desde então já tivemos três sessões com diversos desenvolvedores locais pronto para trocar experiencias.&lt;/p&gt;
+&lt;p&gt;Nas primeira sessão fizemos o problema de conversão de número romanos para número inteiros utilizando a linguagem Python. Nos sessões seguintes utilizamos Ruby para resolver os problemas de mapeamento &lt;span class=&quot;caps&quot;&gt;OCR&lt;/span&gt; e do caixa eletrônico.&lt;/p&gt;
+&lt;p&gt;Todos as resoluções feitas durante as sessões você pode encontrar na página do &lt;a href=&quot;http://github.com/dojo-se&quot;&gt;GitHub&lt;/a&gt; ou no &lt;a href=&quot;http://code.google.com/p/dojo-se&quot;&gt;Google Code&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Como nesse sessão não poderei está presente eu irei postar aqui instruções para configurar o ambiente que foi utilizados nos duas sessões que utilizaram Ruby para desenvolvimento.&lt;/p&gt;
+&lt;h2&gt;Instalando o Ruby utilizando o &lt;span class=&quot;caps&quot;&gt;RVM&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;O &lt;span class=&quot;caps&quot;&gt;RVM&lt;/span&gt; é um projeto feito pela comunidade Ruby que possibilita gerenciar várias versões do Ruby numa mesma máquina sem que você tenha a dor de cabeça para manter o ambiente.&lt;/p&gt;
+&lt;p&gt;A sua instalação é simples, basta seguir esse &lt;a href=&quot;http://rvm.beginrescueend.com/rvm/install/&quot;&gt;tutorial&lt;/a&gt; encontrado no próprio site do projeto.&lt;/p&gt;
+&lt;p&gt;Após a instalação do &lt;span class=&quot;caps&quot;&gt;RVM&lt;/span&gt; basta utilizarmos o seguinte comando para instalar o Ruby, neste caso a versão Entreprise Edition:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;rvm install ree&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Logo após a instalação vamos definir o Ruby Enterprise Edition como o interpretador Ruby para todos os terminais com o comando:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;rvm use ree --default&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Caso seja necessário voltar para o interpretador Ruby do sistema basta utilizar o seguinte comando:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;rvm use system&lt;/code&gt;&lt;/p&gt;
+&lt;h2&gt;RSpec&lt;/h2&gt;
+&lt;p&gt;O framework de teste utilizado nas sessões do Dojo-SE foi o RSpec. Para instalar o RSpec vamos utilizar o gerenciador de pacotes do Ruby o RubyGems. O RubyGems é uma espécie de apt-get para o Ruby.&lt;/p&gt;
+&lt;p&gt;Para instalar o RSpec basta utilizar o comando:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;gem install rspec&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Para utilizar o RSpec basta executar o comando &lt;code&gt;spec&lt;/code&gt; e passar como argumento um arquivo nomeado da forma &lt;code&gt;aplicacao_spec.rb&lt;/code&gt;&lt;/p&gt;
+&lt;h2&gt;Conclusão&lt;/h2&gt;
+&lt;p&gt;Com esse passos o ambiente para programação básica do Ruby já está pronto. Espero poder comparecer nas outra sessões do Dojo-SE.&lt;/p&gt;
+&lt;p&gt;O &lt;a href=&quot;http://akitaonrails.com&quot;&gt;Fábio Akita&lt;/a&gt;, um dos grandes nomes da comunidade Rails no Brasil lançou um &lt;a href=&quot;http://www.akitaonrails.com/2010/07/12/screencast-instalando-um-ambiente-ruby&quot;&gt;screencast pago&lt;/a&gt; sobre como configurar o ambiente Ruby para quem tiver interesse em se aprofundar.&lt;/p&gt;</content>
+ </entry>
  
  <entry>
    <title>Sobre o HTML5</title>
@@ -91,9 +119,9 @@ Todo o blog foi testado no Firefox 3.6 e no Google Chome. Ainda não testei no I
  
  <entry>
    <title>[Tradução] Manter-se atualizado: uma responsabilidade dos Desenvolvedores de Software</title>
-   <link href="http://www.rafaelfranca.com/Gestao/Produtividade/2009/09/30/traducao-manter-se-atualizado-uma-responsabilidade-dos-desenvolvedores-de-software.html"/>
+   <link href="http://www.rafaelfranca.com/Produtividade/Gestao/2009/09/30/traducao-manter-se-atualizado-uma-responsabilidade-dos-desenvolvedores-de-software.html"/>
    <updated>2009-09-30T00:00:00-03:00</updated>
-   <id>http://www.rafaelfranca.com.br/Gestao/Produtividade/2009/09/30/traducao-manter-se-atualizado-uma-responsabilidade-dos-desenvolvedores-de-software</id>
+   <id>http://www.rafaelfranca.com.br/Produtividade/Gestao/2009/09/30/traducao-manter-se-atualizado-uma-responsabilidade-dos-desenvolvedores-de-software</id>
    <content type="html">&lt;p&gt;Este post é uma tradução livre do artigo de &lt;a href=&quot;http://blog.jayfields.com/&quot;&gt;Jay Fields&lt;/a&gt; intitulado &lt;a href=&quot;http://blog.jayfields.com/2009/08/staying-current-software-developers.html&quot;&gt;Staying Current: A Software Developer&amp;#8217;s Responsibility&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Eu tenho um ódio pessoal por conferências realizadas nos finais de semana&lt;sup class=&quot;footnote&quot; id=&quot;fnr1&quot;&gt;&lt;a href=&quot;#fn1&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. Para mim uma conferência no final de semana significa que eu vou está &amp;#8220;trabalhando&amp;#8221; por 12 dias seguidos.&lt;/p&gt;
 &lt;p&gt;Eu entendo que esta opinião não é universal.&lt;/p&gt;

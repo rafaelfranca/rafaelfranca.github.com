@@ -38,6 +38,37 @@
   
   <article class="post">
     <header>
+      <h1><a href="/Ruby/2010/08/30/preparando-o-ambiente-ruby.html">Preparando o ambiente Ruby</a></h1>
+      <h2>Postado por Rafael Mendonça França em 30/08/2010</h2>
+      <h2>Categorias: Ruby</h2>
+    </header>
+    <p>Há algumas semanas tivemos a primeira sessão do <a href="http://groups.google.com/group/dojo-se">Dojo-SE</a>. Desde então já tivemos três sessões com diversos desenvolvedores locais pronto para trocar experiencias.</p>
+<p>Nas primeira sessão fizemos o problema de conversão de número romanos para número inteiros utilizando a linguagem Python. Nos sessões seguintes utilizamos Ruby para resolver os problemas de mapeamento <span class="caps">OCR</span> e do caixa eletrônico.</p>
+<p>Todos as resoluções feitas durante as sessões você pode encontrar na página do <a href="http://github.com/dojo-se">GitHub</a> ou no <a href="http://code.google.com/p/dojo-se">Google Code</a></p>
+<p>Como nesse sessão não poderei está presente eu irei postar aqui instruções para configurar o ambiente que foi utilizados nos duas sessões que utilizaram Ruby para desenvolvimento.</p>
+<h2>Instalando o Ruby utilizando o <span class="caps">RVM</span></h2>
+<p>O <span class="caps">RVM</span> é um projeto feito pela comunidade Ruby que possibilita gerenciar várias versões do Ruby numa mesma máquina sem que você tenha a dor de cabeça para manter o ambiente.</p>
+<p>A sua instalação é simples, basta seguir esse <a href="http://rvm.beginrescueend.com/rvm/install/">tutorial</a> encontrado no próprio site do projeto.</p>
+<p>Após a instalação do <span class="caps">RVM</span> basta utilizarmos o seguinte comando para instalar o Ruby, neste caso a versão Entreprise Edition:</p>
+<p><code>rvm install ree</code></p>
+<p>Logo após a instalação vamos definir o Ruby Enterprise Edition como o interpretador Ruby para todos os terminais com o comando:</p>
+<p><code>rvm use ree --default</code></p>
+<p>Caso seja necessário voltar para o interpretador Ruby do sistema basta utilizar o seguinte comando:</p>
+<p><code>rvm use system</code></p>
+<h2>RSpec</h2>
+<p>O framework de teste utilizado nas sessões do Dojo-SE foi o RSpec. Para instalar o RSpec vamos utilizar o gerenciador de pacotes do Ruby o RubyGems. O RubyGems é uma espécie de apt-get para o Ruby.</p>
+<p>Para instalar o RSpec basta utilizar o comando:</p>
+<p><code>gem install rspec</code></p>
+<p>Para utilizar o RSpec basta executar o comando <code>spec</code> e passar como argumento um arquivo nomeado da forma <code>aplicacao_spec.rb</code></p>
+<h2>Conclusão</h2>
+<p>Com esse passos o ambiente para programação básica do Ruby já está pronto. Espero poder comparecer nas outra sessões do Dojo-SE.</p>
+<p>O <a href="http://akitaonrails.com">Fábio Akita</a>, um dos grandes nomes da comunidade Rails no Brasil lançou um <a href="http://www.akitaonrails.com/2010/07/12/screencast-instalando-um-ambiente-ruby">screencast pago</a> sobre como configurar o ambiente Ruby para quem tiver interesse em se aprofundar.</p>
+    <a href="/Ruby/2010/08/30/preparando-o-ambiente-ruby.html#disqus_thread">Comentários</a>
+    <hr/>
+  </article>
+  
+  <article class="post">
+    <header>
       <h1><a href="/Web/2010/07/08/sobre-o-html5.html">Sobre o HTML5</a></h1>
       <h2>Postado por Rafael Mendonça França em 08/07/2010</h2>
       <h2>Categorias: Web</h2>
@@ -93,20 +124,6 @@
     <hr/>
   </article>
   
-  <article class="post">
-    <header>
-      <h1><a href="/Ruby/2010/05/17/apresentacao-secomp-ufs.html">Apresentação da Secomp - UFS</a></h1>
-      <h2>Postado por Rafael Mendonça França em 17/05/2010</h2>
-      <h2>Categorias: Ruby</h2>
-    </header>
-    <p>Aqui está minha apresentação do minicurso de Ruby on Rails da <a href="http://dcomp-ufs.sytes.net/semana/">Secomp &#8211; <span class="caps">UFS</span></a> intitulado Desenvolvimento Dirigido à Comportamente com Ruby on Rails</p>
-<div style="width:425px" id="__ss_4119928"><strong style="display:block;margin:12px 0 4px"><a href="http://www.slideshare.net/rafael.ufs/apresentao-de-ruby-on-rails-secompufs" title="Apresentação de Ruby on Rails - Secomp/UFS">Apresentação de Ruby on Rails &#8211; Secomp/<span class="caps">UFS</span></a></strong><object id="__sse4119928" width="425" height="355"><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=rails-100516202020-phpapp02&stripped_title=apresentao-de-ruby-on-rails-secompufs" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed name="__sse4119928" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=rails-100516202020-phpapp02&stripped_title=apresentao-de-ruby-on-rails-secompufs" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="355"></embed></object><div style="padding:5px 0 12px">View more <a href="http://www.slideshare.net/">presentations</a> from <a href="http://www.slideshare.net/rafael.ufs">Rafael França</a>.</div></div>
-<p>Neste minicurso eu tentei passar para os presentes uma forma diferente de desenvolver software baseada em práticas ágeis como o <a href="http://pt.wikipedia.org/wiki/Test_Driven_Development"><span class="caps">TDD</span></a> e o <a href="http://pt.wikipedia.org/wiki/Behavior_Driven_Development"><span class="caps">BDD</span></a>, utilizando ferramentas do Ruby como o <a href="http://cukes.info">Cucumber</a> e <a href="htpp://rspec.info">Rspec</a>.</p>
-<p>Infelizmente o minicurso não foi como eu esperava, mas pelo menos deu para despertar interesse pela linguagem e serviu de aprendizado. Na próxima vez com certeza irei fazer um minicurso bem melhor.</p>
-    <a href="/Ruby/2010/05/17/apresentacao-secomp-ufs.html#disqus_thread">Comentários</a>
-    <hr/>
-  </article>
-  
 
 </section>
 
@@ -117,13 +134,15 @@
             <h1>Artigos recentes</h1>
             <ul>
               
+                <li><a href="/Ruby/2010/08/30/preparando-o-ambiente-ruby.html">Preparando o ambiente Ruby</a>
+              
                 <li><a href="/Web/2010/07/08/sobre-o-html5.html">Sobre o HTML5</a>
               
                 <li><a href="/Ruby/2010/05/17/apresentacao-secomp-ufs.html">Apresentação da Secomp - UFS</a>
               
                 <li><a href="/Ruby/2010/05/16/site-migrado-para-jekyll.html">Blog migrado para Jekyll</a>
               
-                <li><a href="/Gestao/Produtividade/2009/09/30/traducao-manter-se-atualizado-uma-responsabilidade-dos-desenvolvedores-de-software.html">[Tradução] Manter-se atualizado: uma responsabilidade dos Desenvolvedores de Software</a>
+                <li><a href="/Produtividade/Gestao/2009/09/30/traducao-manter-se-atualizado-uma-responsabilidade-dos-desenvolvedores-de-software.html">[Tradução] Manter-se atualizado: uma responsabilidade dos Desenvolvedores de Software</a>
               
                 <li><a href="/Arquitetura/2009/08/24/padrao-mvc.html">Padrão MVC</a>
               

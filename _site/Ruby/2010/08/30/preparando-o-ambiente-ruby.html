@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
     <head>
-      <title>Blog do Rafael França - Artigo</title>
+      <title>Blog do Rafael França - Preparando o ambiente Ruby</title>
 
         <meta charset="utf-8">
         <meta name="keywords" content=""/>
-        <meta name="description" content=""/>
+        <meta name="description" content="Explicando como prepara o ambiente de desenvolvimento Ruby utilizando o RVM"/>
 
         <link rel="stylesheet" href="/css/screen.css" media="screen" charset="utf-8">
         <link rel="stylesheet" href="/css/style.css" media="screen" charset="utf-8">
@@ -34,25 +34,46 @@
         </header>
 
         <section id="main">
-          <ul id="archive" class="prepend-1 span-15 append-1">
+          <article class="post prepend-1 append-1 span-15">
+  <header>
+    <h1><a href="/Ruby/2010/08/30/preparando-o-ambiente-ruby.html">Preparando o ambiente Ruby</a></h1>
+    <h2>Postado por Rafael Mendonça França em 30/08/2010</h2>
+    <h2>Categorias: Ruby</h2>
+  </header>
+  <p>Há algumas semanas tivemos a primeira sessão do <a href="http://groups.google.com/group/dojo-se">Dojo-SE</a>. Desde então já tivemos três sessões com diversos desenvolvedores locais pronto para trocar experiencias.</p>
+<p>Nas primeira sessão fizemos o problema de conversão de número romanos para número inteiros utilizando a linguagem Python. Nos sessões seguintes utilizamos Ruby para resolver os problemas de mapeamento <span class="caps">OCR</span> e do caixa eletrônico.</p>
+<p>Todos as resoluções feitas durante as sessões você pode encontrar na página do <a href="http://github.com/dojo-se">GitHub</a> ou no <a href="http://code.google.com/p/dojo-se">Google Code</a></p>
+<p>Como nesse sessão não poderei está presente eu irei postar aqui instruções para configurar o ambiente que foi utilizados nos duas sessões que utilizaram Ruby para desenvolvimento.</p>
+<h2>Instalando o Ruby utilizando o <span class="caps">RVM</span></h2>
+<p>O <span class="caps">RVM</span> é um projeto feito pela comunidade Ruby que possibilita gerenciar várias versões do Ruby numa mesma máquina sem que você tenha a dor de cabeça para manter o ambiente.</p>
+<p>A sua instalação é simples, basta seguir esse <a href="http://rvm.beginrescueend.com/rvm/install/">tutorial</a> encontrado no próprio site do projeto.</p>
+<p>Após a instalação do <span class="caps">RVM</span> basta utilizarmos o seguinte comando para instalar o Ruby, neste caso a versão Entreprise Edition:</p>
+<p><code>rvm install ree</code></p>
+<p>Logo após a instalação vamos definir o Ruby Enterprise Edition como o interpretador Ruby para todos os terminais com o comando:</p>
+<p><code>rvm use ree --default</code></p>
+<p>Caso seja necessário voltar para o interpretador Ruby do sistema basta utilizar o seguinte comando:</p>
+<p><code>rvm use system</code></p>
+<h2>RSpec</h2>
+<p>O framework de teste utilizado nas sessões do Dojo-SE foi o RSpec. Para instalar o RSpec vamos utilizar o gerenciador de pacotes do Ruby o RubyGems. O RubyGems é uma espécie de apt-get para o Ruby.</p>
+<p>Para instalar o RSpec basta utilizar o comando:</p>
+<p><code>gem install rspec</code></p>
+<p>Para utilizar o RSpec basta executar o comando <code>spec</code> e passar como argumento um arquivo nomeado da forma <code>aplicacao_spec.rb</code></p>
+<h2>Conclusão</h2>
+<p>Com esse passos o ambiente para programação básica do Ruby já está pronto. Espero poder comparecer nas outra sessões do Dojo-SE.</p>
+<p>O <a href="http://akitaonrails.com">Fábio Akita</a>, um dos grandes nomes da comunidade Rails no Brasil lançou um <a href="http://www.akitaonrails.com/2010/07/12/screencast-instalando-um-ambiente-ruby">screencast pago</a> sobre como configurar o ambiente Ruby para quem tiver interesse em se aprofundar.</p>
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+  var disqus_identifier;
+  (function() {
+   var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+   dsq.src = 'http://rafaelfranca.disqus.com/embed.js';
+   (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript=rafaelfranca">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+</article>
 
-<li><a href="/Ruby/2010/08/30/preparando-o-ambiente-ruby.html">Preparando o ambiente Ruby</a> <abbr>30 Aug 2010</abbr></li>
-
-<li><a href="/Web/2010/07/08/sobre-o-html5.html">Sobre o HTML5</a> <abbr>08 Jul 2010</abbr></li>
-
-<li><a href="/Ruby/2010/05/17/apresentacao-secomp-ufs.html">Apresentação da Secomp - UFS</a> <abbr>17 May 2010</abbr></li>
-
-<li><a href="/Ruby/2010/05/16/site-migrado-para-jekyll.html">Blog migrado para Jekyll</a> <abbr>16 May 2010</abbr></li>
-
-<li><a href="/Produtividade/Gestao/2009/09/30/traducao-manter-se-atualizado-uma-responsabilidade-dos-desenvolvedores-de-software.html">[Tradução] Manter-se atualizado: uma responsabilidade dos Desenvolvedores de Software</a> <abbr>30 Sep 2009</abbr></li>
-
-<li><a href="/Arquitetura/2009/08/24/padrao-mvc.html">Padrão MVC</a> <abbr>24 Aug 2009</abbr></li>
-
-<li><a href="/Git/2009/08/14/controle-de-versao-com-git-parte-2.html">Controle de Versões com o GIT - Parte 2</a> <abbr>14 Aug 2009</abbr></li>
-
-<li><a href="/Git/2009/08/07/controle-de-versao-com-git-parte-1.html">Controle de Versões com o GIT - Parte 1</a> <abbr>07 Aug 2009</abbr></li>
-
-</ul>
 
           <aside class="span-6 last">
             <div id="parceiros">

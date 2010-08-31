@@ -1,0 +1,49 @@
+---
+layout: post
+title: Preparando o ambiente Ruby
+Keywords: ruby, rvm, rspec, testes
+description: Explicando como prepara o ambiente de desenvolvimento Ruby utilizando o RVM
+categories: ["Ruby"]
+authors: ["Rafael Mendonça França"]
+---
+Há algumas semanas tivemos a primeira sessão do "Dojo-SE":http://groups.google.com/group/dojo-se. Desde então já tivemos três sessões com diversos desenvolvedores locais pronto para trocar experiencias.
+
+Nas primeira sessão fizemos o problema de conversão de número romanos para número inteiros utilizando a linguagem Python. Nos sessões seguintes utilizamos Ruby para resolver os problemas de mapeamento OCR e do caixa eletrônico.
+
+Todos as resoluções feitas durante as sessões você pode encontrar na página do "GitHub":http://github.com/dojo-se ou no "Google Code":http://code.google.com/p/dojo-se
+
+Como nesse sessão não poderei está presente eu irei postar aqui instruções para configurar o ambiente que foi utilizados nos duas sessões que utilizaram Ruby para desenvolvimento.
+
+h2. Instalando o Ruby utilizando o RVM
+
+O RVM é um projeto feito pela comunidade Ruby que possibilita gerenciar várias versões do Ruby numa mesma máquina sem que você tenha a dor de cabeça para manter o ambiente.
+
+A sua instalação é simples, basta seguir esse "tutorial":http://rvm.beginrescueend.com/rvm/install/ encontrado no próprio site do projeto.
+
+Após a instalação do RVM basta utilizarmos o seguinte comando para instalar o Ruby, neste caso a versão Entreprise Edition:
+
+@rvm install ree@
+
+Logo após a instalação vamos definir o Ruby Enterprise Edition como o interpretador Ruby para todos os terminais com o comando:
+
+@rvm use ree --default@
+
+Caso seja necessário voltar para o interpretador Ruby do sistema basta utilizar o seguinte comando:
+
+@rvm use system@
+
+h2. RSpec
+
+O framework de teste utilizado nas sessões do Dojo-SE foi o RSpec. Para instalar o RSpec vamos utilizar o gerenciador de pacotes do Ruby o RubyGems. O RubyGems é uma espécie de apt-get para o Ruby.
+
+Para instalar o RSpec basta utilizar o comando:
+
+@gem install rspec@
+
+Para utilizar o RSpec basta executar o comando @spec@ e passar como argumento um arquivo nomeado da forma @aplicacao_spec.rb@
+
+h2. Conclusão
+
+Com esse passos o ambiente para programação básica do Ruby já está pronto. Espero poder comparecer nas outra sessões do Dojo-SE.
+
+O "Fábio Akita":http://akitaonrails.com, um dos grandes nomes da comunidade Rails no Brasil lançou um "screencast pago":http://www.akitaonrails.com/2010/07/12/screencast-instalando-um-ambiente-ruby sobre como configurar o ambiente Ruby para quem tiver interesse em se aprofundar.
