@@ -1,0 +1,32 @@
+---
+layout: post
+title: Apresentação na GE2PS
+keywords: agile, scrum, xp, mannagement, tdd, bdd, grupoagencia, pmi
+description: Apresentação feita no terceiro encontro do Ge2PS
+categories: ["Agile"]
+authors: ["Rafael Mendonça França"]
+---
+Nesta terça-feira (23/11/2010) eu facilitei o terceiro encontro do Grupo de Estudos em Gestão e Engenharia de Projetos de Software (GE2PS). Este grupo é uma iniciativa da "Universidade Tiradentes":http://www.unit.br com o intuito de estreitar a relação academia-mercado, compartilhar experiências e estudar novas tecnologias.
+
+Este encontro teve participação de 15 pessoas representando empresas como Sergipetec, Infox, Unit, Code2, Alfamaweb, DP Sistemas, Datapel e Grupo Constâncio Vieira.
+
+O formato dos encontros é bem interessante e na minha opinião é o ideal para atingir esses objetivos. Um facilitador inicia um debate sobre experiências práticas que ele passou e discute com o restante do grupo podendo fazer ou não uso de apresentações.
+
+Neste encontro eu fui contar as experiências que eu tive na "Grupo Agência":http://www.grupoagencia.com.br, empresa na qual trabalho atualmente, com metodologias ágeis. Na apresentação mostrei os valores das metodologias ágeis, e como nós do "Grupo Agência":http://www.grupoagencia.com.br utilizamos práticas de metodologias como Scrum e XP.
+
+Os slides podem ser vistos logo abaixo:
+
+<div style="width:425px" id="__ss_5876680"><strong style="display:block;margin:12px 0 4px"><a href="http://www.slideshare.net/rafael.ufs/implantao-de-metodologias-geis-case-grupo-agncia" title="Implantação de Metodologias Ágeis - Case Grupo Agência">Implantação de Metodologias Ágeis - Case Grupo Agência</a></strong><object id="__sse5876680" width="425" height="355"><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=implantao-101123103053-phpapp01&stripped_title=implantao-de-metodologias-geis-case-grupo-agncia&userName=rafael.ufs" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed name="__sse5876680" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=implantao-101123103053-phpapp01&stripped_title=implantao-de-metodologias-geis-case-grupo-agncia&userName=rafael.ufs" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="355"></embed></object><div style="padding:5px 0 12px">View more <a href="http://www.slideshare.net/">presentations</a> from <a href="http://www.slideshare.net/rafael.ufs">Rafael França</a>.</div></div>
+
+Durante a apresentação fiz alguns comentários sobre a apresentação do "Paulo Calori":http://twitter.com/paulocaroli da "Thoughtworks":http://www.thoughtworks.com/ sobre "linha de montagem de software":http://www.slideshare.net/paulocaroli/a-linha-de-montagem-de-sw-paulo-caroli-cb-soft-2010-salvador que assisti durante o "CBSoft 2010":http://cbsoft.dcc.ufba.br que aconteceu em Salvador e sobre um episódio do "Bluesoft Podcast":http://podcast.bluesoft.com.br onde eles citam a técnica do "Batman da semana":http://bluesoft.wordpress.com/2009/12/18/podcast-2-o-batman-da-semana.
+
+No fim da apresentação eu deixei alguns links para algumas apresentações do "Fábio Akita":http://akitaonrails.com que são ótima para quem quer entender as motivações e temas que estão por trás das metodologias ágeis como Scrum e XP.
+
+Aproveito esse post para agradecer a meus colegas de trabalho e amigos que me deram apoio e me ajudaram a enfrentar e superar boa parte das dificuldades apresentadas e aos diretores da empresa por ter possibilitado tudo isso. Tive o prazer de fazer parte de uma equipe com ótimos profissionais como:
+
+* "Cainã Costa":http://twitter.com/sryche
+* "Marcio Toze":http://twitter.com/marciotoze
+* "Nelson Luiz":http://twitter.com/nelsoneafra
+* "Matheus Oliveira":http://twitter.com/matheusvetor
+
+E desde já convido a todos a participarem dos próximos encontros do GE2PS. Mais informações sobre este grupo e sobre os encontros anteriores você pode encontra no blog do "Alércio Bressano":http://alercio.wordpres.com, um dos idealizadores do grupo.

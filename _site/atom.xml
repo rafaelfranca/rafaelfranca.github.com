@@ -4,13 +4,36 @@
  <title>Blog do Rafael França</title>
  <link href="http://www.rafaelfranca.com.br/atom.xml" rel="self"/>
  <link href="http://www.rafaelfranca.com.br/"/>
- <updated>2010-08-30T22:01:11-03:00</updated>
+ <updated>2010-11-24T19:20:41-03:00</updated>
  <id>http://www.rafaelfranca.com.br</id>
  <author>
    <name>Rafael Mendonça França</name>
    <email>rafaelmfranca@gmail.com</email>
  </author>
  
+ 
+ <entry>
+   <title>Apresentação na GE2PS</title>
+   <link href="http://www.rafaelfranca.com/Agile/2010/11/24/apresentacao-ge2ps.html"/>
+   <updated>2010-11-24T00:00:00-03:00</updated>
+   <id>http://www.rafaelfranca.com.br/Agile/2010/11/24/apresentacao-ge2ps</id>
+   <content type="html">&lt;p&gt;Nesta terça-feira (23/11/2010) eu facilitei o terceiro encontro do Grupo de Estudos em Gestão e Engenharia de Projetos de Software (GE2PS). Este grupo é uma iniciativa da &lt;a href=&quot;http://www.unit.br&quot;&gt;Universidade Tiradentes&lt;/a&gt; com o intuito de estreitar a relação academia-mercado, compartilhar experiências e estudar novas tecnologias.&lt;/p&gt;
+&lt;p&gt;Este encontro teve participação de 15 pessoas representando empresas como Sergipetec, Infox, Unit, Code2, Alfamaweb, DP Sistemas, Datapel e Grupo Constâncio Vieira.&lt;/p&gt;
+&lt;p&gt;O formato dos encontros é bem interessante e na minha opinião é o ideal para atingir esses objetivos. Um facilitador inicia um debate sobre experiências práticas que ele passou e discute com o restante do grupo podendo fazer ou não uso de apresentações.&lt;/p&gt;
+&lt;p&gt;Neste encontro eu fui contar as experiências que eu tive na &lt;a href=&quot;http://www.grupoagencia.com.br&quot;&gt;Grupo Agência&lt;/a&gt;, empresa na qual trabalho atualmente, com metodologias ágeis. Na apresentação mostrei os valores das metodologias ágeis, e como nós do &lt;a href=&quot;http://www.grupoagencia.com.br&quot;&gt;Grupo Agência&lt;/a&gt; utilizamos práticas de metodologias como Scrum e XP.&lt;/p&gt;
+&lt;p&gt;Os slides podem ser vistos logo abaixo:&lt;/p&gt;
+&lt;div style=&quot;width:425px&quot; id=&quot;__ss_5876680&quot;&gt;&lt;strong style=&quot;display:block;margin:12px 0 4px&quot;&gt;&lt;a href=&quot;http://www.slideshare.net/rafael.ufs/implantao-de-metodologias-geis-case-grupo-agncia&quot; title=&quot;Implantação de Metodologias Ágeis - Case Grupo Agência&quot;&gt;Implantação de Metodologias Ágeis &amp;#8211; Case Grupo Agência&lt;/a&gt;&lt;/strong&gt;&lt;object id=&quot;__sse5876680&quot; width=&quot;425&quot; height=&quot;355&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=implantao-101123103053-phpapp01&amp;stripped_title=implantao-de-metodologias-geis-case-grupo-agncia&amp;userName=rafael.ufs&quot; /&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;/&gt;&lt;param name=&quot;allowScriptAccess&quot; value=&quot;always&quot;/&gt;&lt;embed name=&quot;__sse5876680&quot; src=&quot;http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=implantao-101123103053-phpapp01&amp;stripped_title=implantao-de-metodologias-geis-case-grupo-agncia&amp;userName=rafael.ufs&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;425&quot; height=&quot;355&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;div style=&quot;padding:5px 0 12px&quot;&gt;View more &lt;a href=&quot;http://www.slideshare.net/&quot;&gt;presentations&lt;/a&gt; from &lt;a href=&quot;http://www.slideshare.net/rafael.ufs&quot;&gt;Rafael França&lt;/a&gt;.&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Durante a apresentação fiz alguns comentários sobre a apresentação do &lt;a href=&quot;http://twitter.com/paulocaroli&quot;&gt;Paulo Calori&lt;/a&gt; da &lt;a href=&quot;http://www.thoughtworks.com/&quot;&gt;Thoughtworks&lt;/a&gt; sobre &lt;a href=&quot;http://www.slideshare.net/paulocaroli/a-linha-de-montagem-de-sw-paulo-caroli-cb-soft-2010-salvador&quot;&gt;linha de montagem de software&lt;/a&gt; que assisti durante o &lt;a href=&quot;http://cbsoft.dcc.ufba.br&quot;&gt;CBSoft 2010&lt;/a&gt; que aconteceu em Salvador e sobre um episódio do &lt;a href=&quot;http://podcast.bluesoft.com.br&quot;&gt;Bluesoft Podcast&lt;/a&gt; onde eles citam a técnica do &lt;a href=&quot;http://bluesoft.wordpress.com/2009/12/18/podcast-2-o-batman-da-semana&quot;&gt;Batman da semana&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;No fim da apresentação eu deixei alguns links para algumas apresentações do &lt;a href=&quot;http://akitaonrails.com&quot;&gt;Fábio Akita&lt;/a&gt; que são ótima para quem quer entender as motivações e temas que estão por trás das metodologias ágeis como Scrum e XP.&lt;/p&gt;
+&lt;p&gt;Aproveito esse post para agradecer a meus colegas de trabalho e amigos que me deram apoio e me ajudaram a enfrentar e superar boa parte das dificuldades apresentadas e aos diretores da empresa por ter possibilitado tudo isso. Tive o prazer de fazer parte de uma equipe com ótimos profissionais como:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;http://twitter.com/sryche&quot;&gt;Cainã Costa&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://twitter.com/marciotoze&quot;&gt;Marcio Toze&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://twitter.com/nelsoneafra&quot;&gt;Nelson Luiz&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://twitter.com/matheusvetor&quot;&gt;Matheus Oliveira&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;E desde já convido a todos a participarem dos próximos encontros do GE2PS. Mais informações sobre este grupo e sobre os encontros anteriores você pode encontra no blog do &lt;a href=&quot;http://alercio.wordpres.com&quot;&gt;Alércio Bressano&lt;/a&gt;, um dos idealizadores do grupo.&lt;/p&gt;</content>
+ </entry>
  
  <entry>
    <title>Preparando o ambiente Ruby</title>
