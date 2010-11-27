@@ -4,7 +4,7 @@
  <title>Blog do Rafael França</title>
  <link href="http://www.rafaelfranca.com.br/atom.xml" rel="self"/>
  <link href="http://www.rafaelfranca.com.br/"/>
- <updated>2010-11-27T11:41:57-03:00</updated>
+ <updated>2010-11-27T11:51:09-03:00</updated>
  <id>http://www.rafaelfranca.com.br</id>
  <author>
    <name>Rafael Mendonça França</name>
@@ -17,7 +17,8 @@
    <link href="http://www.rafaelfranca.com/Agile/2010/11/24/apresentacao-ge2ps.html"/>
    <updated>2010-11-24T00:00:00-03:00</updated>
    <id>http://www.rafaelfranca.com.br/Agile/2010/11/24/apresentacao-ge2ps</id>
-   <content type="html">&lt;p&gt;Nesta terça-feira (23/11/2010) eu facilitei o terceiro encontro do Grupo de Estudos em Gestão e Engenharia de Projetos de Software (GE2PS). Este grupo é uma iniciativa da &lt;a href=&quot;http://www.unit.br&quot;&gt;Universidade Tiradentes&lt;/a&gt; com o intuito de estreitar a relação academia-mercado, compartilhar experiências e estudar novas tecnologias.&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;b&gt;&lt;span class=&quot;caps&quot;&gt;UPDATE&lt;/span&gt;&lt;/b&gt;: Por algum motivo o link para o blog do &lt;a href=&quot;http://alercio.wordpress.com&quot;&gt;Alércio Bressano&lt;/a&gt; estava redirecionando para uma página incorreta. O erro já foi corrigido e peço desculpas caso este link tenha atrapalhado alguém.&lt;/p&gt;
+&lt;p&gt;Nesta terça-feira (23/11/2010) eu facilitei o terceiro encontro do Grupo de Estudos em Gestão e Engenharia de Projetos de Software (GE2PS). Este grupo é uma iniciativa da &lt;a href=&quot;http://www.unit.br&quot;&gt;Universidade Tiradentes&lt;/a&gt; com o intuito de estreitar a relação academia-mercado, compartilhar experiências e estudar novas tecnologias.&lt;/p&gt;
 &lt;p&gt;Este encontro teve participação de 15 pessoas representando empresas como Sergipetec, Infox, Unit, Code2, Alfamaweb, DP Sistemas, Datapel e Grupo Constâncio Vieira.&lt;/p&gt;
 &lt;p&gt;O formato dos encontros é bem interessante e na minha opinião é o ideal para atingir esses objetivos. Um facilitador inicia um debate sobre experiências práticas que ele passou e discute com o restante do grupo podendo fazer ou não uso de apresentações.&lt;/p&gt;
 &lt;p&gt;Neste encontro eu fui contar as experiências que eu tive na &lt;a href=&quot;http://www.grupoagencia.com.br&quot;&gt;Grupo Agência&lt;/a&gt;, empresa na qual trabalho atualmente, com metodologias ágeis. Na apresentação mostrei os valores das metodologias ágeis, e como nós do &lt;a href=&quot;http://www.grupoagencia.com.br&quot;&gt;Grupo Agência&lt;/a&gt; utilizamos práticas de metodologias como Scrum e XP.&lt;/p&gt;

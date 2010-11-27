@@ -6,6 +6,8 @@ description: Apresentação feita no terceiro encontro do Ge2PS
 categories: ["Agile"]
 authors: ["Rafael Mendonça França"]
 ---
+**UPDATE**: Por algum motivo o link para o blog do "Alércio Bressano":http://alercio.wordpress.com estava redirecionando para uma página incorreta. O erro já foi corrigido e peço desculpas caso este link tenha atrapalhado alguém.
+
 Nesta terça-feira (23/11/2010) eu facilitei o terceiro encontro do Grupo de Estudos em Gestão e Engenharia de Projetos de Software (GE2PS). Este grupo é uma iniciativa da "Universidade Tiradentes":http://www.unit.br com o intuito de estreitar a relação academia-mercado, compartilhar experiências e estudar novas tecnologias.
 
 Este encontro teve participação de 15 pessoas representando empresas como Sergipetec, Infox, Unit, Code2, Alfamaweb, DP Sistemas, Datapel e Grupo Constâncio Vieira.
