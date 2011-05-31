@@ -35,58 +35,56 @@
         </header>
 
         <section id="main">
-          <article class="post prepend-1 append-1 span-15">
-  <header>
-    <h1><a href="/Ruby/2010/05/16/site-migrado-para-jekyll.html">Blog migrado para Jekyll</a></h1>
-    <h2>Postado por Rafael Mendonça França em 16/05/2010</h2>
-    <h2>Categorias: Ruby</h2>
-  </header>
-  <p>Depois de muito tempo sem atualizar o blog fiz uma mudança geral em todo o sistema que utilizava.</p>
+          <section id="articles" class="append-1 span-17">
+  <article class="post">
+    <header>
+      <h1><a href="/Ruby/2010/05/16/site-migrado-para-jekyll.html">Blog migrado para Jekyll</a></h1>
+      <h2>Postado por Rafael Mendonça França em 16/05/2010</h2>
+      <h2>Categorias: Ruby</h2>
+    </header>
+    <p>Depois de muito tempo sem atualizar o blog fiz uma mudança geral em todo o sistema que utilizava.</p>
 <p>Quando eu criei este blog eu utilizei uma ferramenta bem conhecida, o <a href="http://www.wordpress.org">Wordpress</a>. Fui feliz enquanto utilizei o Wordpress principalmente pelas facilidades que ele traz e os diversos plugins disponíveis. Com o passar do tempo percebi que o Wordpress tinha mais funcionalidades que eu necessitava. Além disso, com o distanciamento que tive do blog, de quase 9 meses, precisava de algum empurrão para retornar a escrever.</p>
 <p>Então decidi que iria utilizar uma solução de blog bastante simples, feita em <a href="http://ruby-lang.org">Ruby</a>, o <a href="http://github.com/mojombo/jekyll">Jekyll</a>. O Jekyll é totalmente baseado em arquivos, então não há necessidade de bancos de dados com o MySQL ou o PostgreSQL. Além disso ele utiliza uma linguagem de marcação bastante poderosa o <a href="http://en.wikipedia.org/wiki/Textile_%28markup_language%29">Textile</a> para poder escrever os posts. E para postar é só seguir o workflow do <a href="http://localhost:4000/Git/2009/08/07/controle-de-versao-com-git-parte-1.html">Git</a> que eu já estou acostumado: criar o arquivo do post, commitar e depois enviar as modificações para o <a href="http://heroku.com">Heroku</a>. Vocês podem encontrar mais informações sobre o Jekyll na página no projeto.</p>
 <p>Pus a mão na massa. Instalei e configurei o Jekyll, migrei os antigos posts do Wordpress, e coloquei a aplicação rodando no Heroku. Além disso modifiquei todo o layout do site para utilizar <a href="http://pt.wikipedia.org/wiki/HTML_5"><span class="caps">HTML</span> 5</a> e <a href="http://pt.wikipedia.org/wiki/CSS3"><span class="caps">CSS</span> 3</a>. Utilizei, também, algumas técnicas básicas de <span class="caps">SEO</span>, como keywords e url amigáveis. Para colocar os comentários nos posts eu estou utilizando o <a href="http://disqus.com">Disqus</a>. Este é um sistema de comentários muito bom e que deixa a responsabilidade de tratar os comentários de seu blog com o Disqus. Ele possui configurações para quase todos os gerenciadores de blogs conhecidos. Eu recomento darem uma olhada nele, pois ele se integra com o <a href="http://www.facebook.com/rafaelfranca">Facebook</a>, <a href="http://twitter.com/rafaelfranca">Twitter</a>, <a href="http://akismet.com/">Akismet</a> e com qualquer provedor <a href="http://openid.net/">OpenId</a>.</p>
 Todo o blog foi testado no Firefox 3.6 e no Google Chome. Ainda não testei no Internet Explorer, pois nem tenho ele instalado aqui na minha máquina, então se você estiver utilizando esse navegador com certeza o layout está errado. Sei que o design não está muito bom, mas a intenção deste blog é que ele esteja em constante desenvolvimento, para assim me forçar a escrever mais. Em breve eu devo fazer algumas modificações no layout que irão tornar esse blog mais bonito.
-  <div id="disqus_thread"></div>
-<script type="text/javascript">
-  var disqus_identifier;
-  (function() {
-   var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-   dsq.src = 'http://rafaelfranca.disqus.com/embed.js';
-   (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-  })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript=rafaelfranca">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
-</article>
+    <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    var disqus_identifier;
+    (function() {
+     var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+     dsq.src = 'http://rafaelfranca.disqus.com/embed.js';
+     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript=rafaelfranca">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+  </article>
+</section>
+<aside class="last span-6">
+  <h1>Artigos recentes</h1>
+  <ul>
+    
+      <li><a href="/Agile/2010/11/24/apresentacao-ge2ps.html">Apresentação na GE2PS</a>
+    
+      <li><a href="/Ruby/2010/08/30/preparando-o-ambiente-ruby.html">Preparando o ambiente Ruby</a>
+    
+      <li><a href="/Web/2010/07/08/sobre-o-html5.html">Sobre o HTML5</a>
+    
+      <li><a href="/Ruby/2010/05/17/apresentacao-secomp-ufs.html">Apresentação da Secomp - UFS</a>
+    
+      <li><a href="/Ruby/2010/05/16/site-migrado-para-jekyll.html">Blog migrado para Jekyll</a>
+    
+      <li><a href="/Produtividade/Gestao/2009/09/30/traducao-manter-se-atualizado-uma-responsabilidade-dos-desenvolvedores-de-software.html">[Tradução] Manter-se atualizado: uma responsabilidade dos Desenvolvedores de Software</a>
+    
+      <li><a href="/Arquitetura/2009/08/24/padrao-mvc.html">Padrão MVC</a>
+    
+      <li><a href="/Git/2009/08/14/controle-de-versao-com-git-parte-2.html">Controle de Versões com o GIT - Parte 2</a>
+    
+      <li><a href="/Git/2009/08/07/controle-de-versao-com-git-parte-1.html">Controle de Versões com o GIT - Parte 1</a>
+    
+  </ul>
+</aside>
 
-
-          <aside class="span-6 last">
-            <div id="parceiros">
-              <a title="Grupo Agência" href="http://www.grupoagencia.com.br"><img src="/images/marca_grupo.png" alt="Grupo Agência" /></a>
-            </div>
-            <h1>Artigos recentes</h1>
-            <ul>
-              
-                <li><a href="/Agile/2010/11/24/apresentacao-ge2ps.html">Apresentação na GE2PS</a>
-              
-                <li><a href="/Ruby/2010/08/30/preparando-o-ambiente-ruby.html">Preparando o ambiente Ruby</a>
-              
-                <li><a href="/Web/2010/07/08/sobre-o-html5.html">Sobre o HTML5</a>
-              
-                <li><a href="/Ruby/2010/05/17/apresentacao-secomp-ufs.html">Apresentação da Secomp - UFS</a>
-              
-                <li><a href="/Ruby/2010/05/16/site-migrado-para-jekyll.html">Blog migrado para Jekyll</a>
-              
-                <li><a href="/Produtividade/Gestao/2009/09/30/traducao-manter-se-atualizado-uma-responsabilidade-dos-desenvolvedores-de-software.html">[Tradução] Manter-se atualizado: uma responsabilidade dos Desenvolvedores de Software</a>
-              
-                <li><a href="/Arquitetura/2009/08/24/padrao-mvc.html">Padrão MVC</a>
-              
-                <li><a href="/Git/2009/08/14/controle-de-versao-com-git-parte-2.html">Controle de Versões com o GIT - Parte 2</a>
-              
-                <li><a href="/Git/2009/08/07/controle-de-versao-com-git-parte-1.html">Controle de Versões com o GIT - Parte 1</a>
-              
-            </ul>
-          </aside>
           <div class="clearfix"></div>
         </section>
 

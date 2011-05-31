@@ -1,28 +1,20 @@
 body {
-  background: #3c5594;
+  background: #fff;
 }
 
 #main {
-  background: #e3edbd;
   width: 950px;
   margin-right: 0;
 }
 
 #header {
-  margin-top: 40px;
-  background: #444444;
-  color: #fff;
+  color: #444;
   padding: 20px 5px 0 5px;
-  -webkit-border-top-left-radius: 20px;
-  -webkit-border-top-right-radius: 20px;
-  -moz-border-radius-topleft: 20px;
-  -moz-border-radius-topright: 20px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  border-bottom: 2px solid #000;
 }
 
   #header h1 a, #header h1 a:visited, #header h2 {
-    color: #fff;
+    color: #444;
   }
 
   #header h1 {
@@ -39,7 +31,7 @@ body {
   }
 
   #header h2 {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   #menu ul {
@@ -52,27 +44,24 @@ body {
     }
 
       #menu ul li a {
-        margin: 0 5px;
         display: block;
         height: 25px;
         min-width: 50px;
-        background: #6a6a6a;
         font-size: 14px;
         text-align: center;
-        color: #fff;
+        color: #6a6a6a;
         text-decoration: none;
-        -webkit-border-top-left-radius: 10px;
-        -webkit-border-top-right-radius: 10px;
-        -moz-border-radius-topleft: 10px;
-        -moz-border-radius-topright: 10px;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
         padding: 0 10px;
       }
 
       #menu ul li a:hover {
-        background: #838383;
+        background: #6a6a6a;
+        color: #fff;
       }
+
+#articles {
+  border-right: 2px dashed #838383;
+}
 
 article.post {
   margin-top: 20px;
@@ -101,13 +90,13 @@ article.post h1 a:hover {
 }
 
 article.post header h2 {
-  font-size: 12px;
+  font-size: 14px;
   color: #6a6a6a;
 }
 
 article.post {
   text-align: justify;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 hr {
@@ -118,81 +107,37 @@ article.post h2 {
   font-size: 18px;
 }
 
-#parceiros {
-  margin: 20px 0;
-}
-
 aside h1 {
   font-size: 16px;
   font-weight: bold;
   padding: 10px 0;
   text-align: center;
-  color: #fff;
-  -webkit-border-top-left-radius: 10px;
-  -webkit-border-top-right-radius: 10px;
-  -moz-border-radius-topleft: 10px;
-  -moz-border-radius-topright: 10px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  background: -webkit-gradient(
-    linear,
-    left bottom,
-    left top,
-    color-stop(0.11, rgb(51,56,50)),
-    color-stop(0.56, rgb(77,84,80)),
-    color-stop(0.78, rgb(108,118,112))
-  );
-  background: -moz-linear-gradient(
-    center bottom,
-    rgb(51,56,50) 11%,
-    rgb(77,84,80) 56%,
-    rgb(108,118,112) 78%
-  );
   margin-bottom: 0;
 }
 
 aside ul {
-  background: -webkit-gradient(
-    linear,
-    left bottom,
-    left top,
-    color-stop(0.47, rgb(244,250,218)),
-    color-stop(0.89, rgb(227,237,189))
-  );
-  background: -moz-linear-gradient(
-    center bottom,
-    rgb(244,250,218) 47%,
-    rgb(227,237,189) 89%
-  );
   margin: 0;
   padding: 5px 5px 15px 20px;
-  font-size: 11px;
-  -webkit-border-bottom-right-radius: 10px;
-  -webkit-border-bottom-left-radius: 10px;
-  -moz-border-radius-bottomright: 10px;
-  -moz-border-radius-bottomleft: 10px;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
+  font-size: 13px;
+  list-style: none;
+}
+
+aside ul li {
+  margin-bottom: 15px;
 }
 
 #archive {
   margin-top: 20px;
+  font-size: 14px;
 }
 
 footer {
-  background: #444444;
   width: 950px;
   margin-right: 0;
   text-align: center;
   margin-bottom: 40px;
-  -webkit-border-bottom-right-radius: 20px;
-  -webkit-border-bottom-left-radius: 20px;
-  -moz-border-radius-bottomright: 20px;
-  -moz-border-radius-bottomleft: 20px;
-  border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px;
   padding: 20px 0;
-  color: #fff;
+  color: #000;
 }
 
 footer a {

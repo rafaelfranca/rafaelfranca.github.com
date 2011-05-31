@@ -1,23 +1,32 @@
 ---
 layout: master
 ---
-<article class="post prepend-1 append-1 span-15">
-  <header>
-    <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
-    <h2>Postado por {{ page.authors }} em {{ page.date | date: "%d/%m/%Y" }}</h2>
-    <h2>Categorias: {{ page.categories | join: ", " }}</h2>
-  </header>
-  {{ content }}
-  <div id="disqus_thread"></div>
-<script type="text/javascript">
-  var disqus_identifier;
-  (function() {
-   var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-   dsq.src = 'http://rafaelfranca.disqus.com/embed.js';
-   (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-  })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript=rafaelfranca">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
-</article>
-
+<section id="articles" class="append-1 span-17">
+  <article class="post">
+    <header>
+      <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+      <h2>Postado por {{ page.authors }} em {{ page.date | date: "%d/%m/%Y" }}</h2>
+      <h2>Categorias: {{ page.categories | join: ", " }}</h2>
+    </header>
+    {{ content }}
+    <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    var disqus_identifier;
+    (function() {
+     var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+     dsq.src = 'http://rafaelfranca.disqus.com/embed.js';
+     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript=rafaelfranca">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+  </article>
+</section>
+<aside class="last span-6">
+  <h1>Artigos recentes</h1>
+  <ul>
+    {% for post in site.posts limit: 10 %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a>
+    {% endfor %}
+  </ul>
+</aside>

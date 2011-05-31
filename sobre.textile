@@ -3,14 +3,14 @@ layout: master
 title: Sobre
 keywords: rafael, rafael frança, desenvolvimento de software
 ---
-<article class="post prepend-1 append-1 span-15">
+<article class="post prepend-2 append-2 span-20 last">
 h1. {{ page.title }}
 
 !(left)/images/me.jpg(Rafael Mendonça França)!
 
-Me chamo Rafael Mendonça França. Trabalho como desenvolvedor WEB em uma startup localizada no estado de Sergipe, o "Grupo Agência":http://www.grupoagencia.com.br.
+Me chamo Rafael Mendonça França. Trabalho como engenheiro de software na "Plataforma Tecnologia":http://www.plataformatec.com.br.
 
-Sou estudante do curso de Ciência da Computação na Universidade Federal de Sergipe, onde aprendi e tive a oportunidade de colocar em prática boa parte dos conhecimentos que adquiri durantes os 6 anos que trabalho com informática.
+Estudei Ciências da Computação na Universidade Federal de Sergipe, onde aprendi e tive a oportunidade de colocar em prática boa parte dos conhecimentos que adquiri durantes os 6 anos que trabalho com informática.
 
 Sou um entusiasta e defensor do Software Livre, tento participar da comunidade dando suporte aos usuários e passando os meus conhecimentos. Nos últimos dois anos, conheci e comecei a utilizar algumas metodologias ágeis, como o XP e Scrum. Nesse tempo me deparei com a linguagem de programação Ruby que hoje é o meu principal objeto de estudo.
 

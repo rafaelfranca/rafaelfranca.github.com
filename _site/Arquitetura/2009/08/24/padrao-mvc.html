@@ -35,13 +35,14 @@
         </header>
 
         <section id="main">
-          <article class="post prepend-1 append-1 span-15">
-  <header>
-    <h1><a href="/Arquitetura/2009/08/24/padrao-mvc.html">Padrão MVC</a></h1>
-    <h2>Postado por Rafael Mendonça França em 24/08/2009</h2>
-    <h2>Categorias: Arquitetura</h2>
-  </header>
-  <p>Quebrando um pouco a sequência de posts sobre o <span class="caps">GIT</span>, hoje irei falar sobre o padrão <span class="caps">MVC</span> (Model-View-Controller) a pedido de meu colega de trabalho no <a href="http://www.grupoagencia.com.br">Grupo Agência</a>, <a href="http://twitter.com/marciotoze">@marciotoze</a>.</p>
+          <section id="articles" class="append-1 span-17">
+  <article class="post">
+    <header>
+      <h1><a href="/Arquitetura/2009/08/24/padrao-mvc.html">Padrão MVC</a></h1>
+      <h2>Postado por Rafael Mendonça França em 24/08/2009</h2>
+      <h2>Categorias: Arquitetura</h2>
+    </header>
+    <p>Quebrando um pouco a sequência de posts sobre o <span class="caps">GIT</span>, hoje irei falar sobre o padrão <span class="caps">MVC</span> (Model-View-Controller) a pedido de meu colega de trabalho no <a href="http://www.grupoagencia.com.br">Grupo Agência</a>, <a href="http://twitter.com/marciotoze">@marciotoze</a>.</p>
 <p>O padrão <span class="caps">MVC</span> é um padrão arquitetural criado por <a href="http://en.wikipedia.org/wiki/Trygve_Reenskaug">Trygve Reenskaug</a> em 1979 que divide as aplicações em três tipos de componentes: Modelo, Controlador e Visão. Esse padrão foi originalmente criado para implementar aplicações desktop com interface gráfica, e hoje a ideia é muito utilizada para aplicações Web.  Essa divisão em três componentes ajuda a separar responsabilidades, promovendo baixo <a href="http://pt.wikipedia.org/wiki/Acoplamento">acoplamento</a> e alta <a href="http://pt.wikipedia.org/wiki/Coes%C3%A3o">coesão</a>, o que facilita a manutenabilidade.</p>
 <p>O <span class="caps">MVC</span> está organizado da seguinte forma:</p>
 <div style="text-align:center;"><img src="http://rafaelfranca.com.br/images/mvc-300x141.png" title="Diagrama do Padrão MVC" alt="Diagrama do Padrão MVC" /></div>
@@ -50,47 +51,44 @@
 <p>O Controlador (Controller) interpreta as ações do usuário, as mapeia para chamadas do modelo e apresenta a visão correta para o usuário.</p>
 <p>Frameworks com o <a href="http://rubyonrails.org">Ruby on Rails</a> e o <a href="http://www.cakephp.com.br/">CakePHP</a> utilizam-se desse padrão para escrever suas aplicações, e ele é uma das peças chaves para a produtividade destes frameworks.<br />
 manutenabilidade</p>
-  <div id="disqus_thread"></div>
-<script type="text/javascript">
-  var disqus_identifier;
-  (function() {
-   var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-   dsq.src = 'http://rafaelfranca.disqus.com/embed.js';
-   (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-  })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript=rafaelfranca">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
-</article>
+    <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    var disqus_identifier;
+    (function() {
+     var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+     dsq.src = 'http://rafaelfranca.disqus.com/embed.js';
+     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript=rafaelfranca">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+  </article>
+</section>
+<aside class="last span-6">
+  <h1>Artigos recentes</h1>
+  <ul>
+    
+      <li><a href="/Agile/2010/11/24/apresentacao-ge2ps.html">Apresentação na GE2PS</a>
+    
+      <li><a href="/Ruby/2010/08/30/preparando-o-ambiente-ruby.html">Preparando o ambiente Ruby</a>
+    
+      <li><a href="/Web/2010/07/08/sobre-o-html5.html">Sobre o HTML5</a>
+    
+      <li><a href="/Ruby/2010/05/17/apresentacao-secomp-ufs.html">Apresentação da Secomp - UFS</a>
+    
+      <li><a href="/Ruby/2010/05/16/site-migrado-para-jekyll.html">Blog migrado para Jekyll</a>
+    
+      <li><a href="/Produtividade/Gestao/2009/09/30/traducao-manter-se-atualizado-uma-responsabilidade-dos-desenvolvedores-de-software.html">[Tradução] Manter-se atualizado: uma responsabilidade dos Desenvolvedores de Software</a>
+    
+      <li><a href="/Arquitetura/2009/08/24/padrao-mvc.html">Padrão MVC</a>
+    
+      <li><a href="/Git/2009/08/14/controle-de-versao-com-git-parte-2.html">Controle de Versões com o GIT - Parte 2</a>
+    
+      <li><a href="/Git/2009/08/07/controle-de-versao-com-git-parte-1.html">Controle de Versões com o GIT - Parte 1</a>
+    
+  </ul>
+</aside>
 
-
-          <aside class="span-6 last">
-            <div id="parceiros">
-              <a title="Grupo Agência" href="http://www.grupoagencia.com.br"><img src="/images/marca_grupo.png" alt="Grupo Agência" /></a>
-            </div>
-            <h1>Artigos recentes</h1>
-            <ul>
-              
-                <li><a href="/Agile/2010/11/24/apresentacao-ge2ps.html">Apresentação na GE2PS</a>
-              
-                <li><a href="/Ruby/2010/08/30/preparando-o-ambiente-ruby.html">Preparando o ambiente Ruby</a>
-              
-                <li><a href="/Web/2010/07/08/sobre-o-html5.html">Sobre o HTML5</a>
-              
-                <li><a href="/Ruby/2010/05/17/apresentacao-secomp-ufs.html">Apresentação da Secomp - UFS</a>
-              
-                <li><a href="/Ruby/2010/05/16/site-migrado-para-jekyll.html">Blog migrado para Jekyll</a>
-              
-                <li><a href="/Produtividade/Gestao/2009/09/30/traducao-manter-se-atualizado-uma-responsabilidade-dos-desenvolvedores-de-software.html">[Tradução] Manter-se atualizado: uma responsabilidade dos Desenvolvedores de Software</a>
-              
-                <li><a href="/Arquitetura/2009/08/24/padrao-mvc.html">Padrão MVC</a>
-              
-                <li><a href="/Git/2009/08/14/controle-de-versao-com-git-parte-2.html">Controle de Versões com o GIT - Parte 2</a>
-              
-                <li><a href="/Git/2009/08/07/controle-de-versao-com-git-parte-1.html">Controle de Versões com o GIT - Parte 1</a>
-              
-            </ul>
-          </aside>
           <div class="clearfix"></div>
         </section>
 

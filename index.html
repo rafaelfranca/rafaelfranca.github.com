@@ -4,7 +4,7 @@ title: Desenvolvimento de Software, Agile e Ruby on Rails
 keywords: ruby on rails, agile, software, development, desenvolvimento, ágil, rubyonrails, ruby, rails
 description: Desenvolvimento de Sofware, Agile e Ruby on Rails
 ---
-<section id="articles" class="prepend-1 append-1 span-15">
+<section id="articles" class="append-1 span-17">
   {% for post in site.posts limit: 2 %}
   <article class="post">
     <header>
@@ -17,5 +17,12 @@ description: Desenvolvimento de Sofware, Agile e Ruby on Rails
     <hr/>
   </article>
   {% endfor %}
-
 </section>
+<aside class="last span-6">
+  <h1>Artigos recentes</h1>
+  <ul>
+    {% for post in site.posts limit: 10 %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a>
+    {% endfor %}
+  </ul>
+</aside>
