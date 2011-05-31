@@ -24,7 +24,7 @@ Ultimamente eu estou estudando "Erlang":http://www.erlang.org/, mas ainda não t
 
 h2. Editores e IDE
 
-Minha IDE é o "Vim":http://www.vim.org/, no Mac utilizo especificamente o "MacVim"http://code.google.com/p/macvim/ com "uma configuração personalizada":https://github.com/rafaelfranca/new-vimfiles para obter maior produtividade neste editor que para mim é perfeito. Com essa configuração eu tenho diversos "snippets":https://github.com/rafaelfranca/snipmate-snippets e atalhos que tornam minha vida muito fácil. Todos as operações que preciso fazer durante um dia trabalho consigo fazer facilmente com a ajuda do Vim e de um bom terminal.
+Minha IDE é o "Vim":http://www.vim.org/, no Mac utilizo especificamente o "MacVim":http://code.google.com/p/macvim/ com "uma configuração personalizada":https://github.com/rafaelfranca/new-vimfiles para obter maior produtividade neste editor que para mim é perfeito. Com essa configuração eu tenho diversos "snippets":https://github.com/rafaelfranca/snipmate-snippets e atalhos que tornam minha vida muito fácil. Todos as operações que preciso fazer durante um dia trabalho consigo fazer facilmente com a ajuda do Vim e de um bom terminal.
 
 Eu utilizo o "iTerm2":http://code.google.com/p/iterm2/ como aplicação de terminal. Geralmente utilizo três splits em meu terminal para melhorar a visualização. Em no split maior eu deixo os testes rodando interruptamente (sim, eu dou mais importância aos testes), em um dos menores eu deixo o log da aplicação aberta e o outro eu deixo livre para rodar algum comando.
 

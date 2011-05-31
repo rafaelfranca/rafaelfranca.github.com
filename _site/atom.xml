@@ -4,7 +4,7 @@
  <title>Blog do Rafael França</title>
  <link href="http://www.rafaelfranca.com.br/atom.xml" rel="self"/>
  <link href="http://www.rafaelfranca.com.br/"/>
- <updated>2011-05-30T23:52:28-03:00</updated>
+ <updated>2011-05-30T23:55:28-03:00</updated>
  <id>http://www.rafaelfranca.com.br</id>
  <author>
    <name>Rafael Mendonça França</name>
@@ -26,7 +26,7 @@
 &lt;p&gt;&lt;a href=&quot;http://www.ruby-lang.org/en/&quot;&gt;Ruby&lt;/a&gt; e Javascript são as linguagem que mais trabalho. Desenvolvo aplicações Web utilizando Ruby e o framework &lt;a href=&quot;http://rubyonrails.org/&quot;&gt;Ruby on Rails&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Ultimamente eu estou estudando &lt;a href=&quot;http://www.erlang.org/&quot;&gt;Erlang&lt;/a&gt;, mas ainda não tive oportunidade de utiliza-la em meus projetos.&lt;/p&gt;
 &lt;h2&gt;Editores e &lt;span class=&quot;caps&quot;&gt;IDE&lt;/span&gt;&lt;/h2&gt;
-&lt;p&gt;Minha &lt;span class=&quot;caps&quot;&gt;IDE&lt;/span&gt; é o &lt;a href=&quot;http://www.vim.org/&quot;&gt;Vim&lt;/a&gt;, no Mac utilizo especificamente o &amp;quot;MacVim&amp;quot;http://code.google.com/p/macvim/ com &lt;a href=&quot;https://github.com/rafaelfranca/new-vimfiles&quot;&gt;uma configuração personalizada&lt;/a&gt; para obter maior produtividade neste editor que para mim é perfeito. Com essa configuração eu tenho diversos &lt;a href=&quot;https://github.com/rafaelfranca/snipmate-snippets&quot;&gt;snippets&lt;/a&gt; e atalhos que tornam minha vida muito fácil. Todos as operações que preciso fazer durante um dia trabalho consigo fazer facilmente com a ajuda do Vim e de um bom terminal.&lt;/p&gt;
+&lt;p&gt;Minha &lt;span class=&quot;caps&quot;&gt;IDE&lt;/span&gt; é o &lt;a href=&quot;http://www.vim.org/&quot;&gt;Vim&lt;/a&gt;, no Mac utilizo especificamente o &lt;a href=&quot;http://code.google.com/p/macvim/&quot;&gt;MacVim&lt;/a&gt; com &lt;a href=&quot;https://github.com/rafaelfranca/new-vimfiles&quot;&gt;uma configuração personalizada&lt;/a&gt; para obter maior produtividade neste editor que para mim é perfeito. Com essa configuração eu tenho diversos &lt;a href=&quot;https://github.com/rafaelfranca/snipmate-snippets&quot;&gt;snippets&lt;/a&gt; e atalhos que tornam minha vida muito fácil. Todos as operações que preciso fazer durante um dia trabalho consigo fazer facilmente com a ajuda do Vim e de um bom terminal.&lt;/p&gt;
 &lt;p&gt;Eu utilizo o &lt;a href=&quot;http://code.google.com/p/iterm2/&quot;&gt;iTerm2&lt;/a&gt; como aplicação de terminal. Geralmente utilizo três splits em meu terminal para melhorar a visualização. Em no split maior eu deixo os testes rodando interruptamente (sim, eu dou mais importância aos testes), em um dos menores eu deixo o log da aplicação aberta e o outro eu deixo livre para rodar algum comando.&lt;/p&gt;
 &lt;p&gt;Eu sempre tive vontade de ter um Mac só para usar o &lt;a href=&quot;http://macromates.com/&quot;&gt;Textmate&lt;/a&gt; mas agora que eu tenho eu acho o Vim melhor.&lt;/p&gt;
 &lt;h2&gt;Controle de Versão&lt;/h2&gt;
