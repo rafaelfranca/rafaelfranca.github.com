@@ -6,9 +6,10 @@ categories: ["Produtividade"]
 authors: ["Rafael Mendonça França"]
 ---
 
+Aceitando o convite do "Hugo Dória":http://hdoria.com vou descrever o meu ambiente de desenvolvimento em 7 itens:
+
 h2. Hardware e Sistema Operacional
 
-Aceitando o convite do "Hugo Dória":http://hdoria.com vou descrever o meu ambiente de desenvolvimento em 7 itens:
 Minha principal máquina para desenvolvimento é um Macbook Pro de 13 polegadas (modelo 2011), com 4GB de RAM, Intel Core i5 2.3Ghz e 320 GB HDD. Estou com esta máquina a pouco mais de dois meses e estou adorando. Anteriormente eu utilizava um notebook Dell Core 2 Duo 1.8Ghz e 3GB de RAM.
 
 No Macbook rodo exclusivamente Mac OS X 10.6.8. Há alguns meses o Linux deixou de ser meu sistema operacional principal. Para mim a mudança foi suave e não sinto falta de nenhum aplicativo do Linux.
