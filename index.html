@@ -9,8 +9,8 @@ description: Desenvolvimento de Sofware, Agile e Ruby on Rails
   <article class="post">
     <header>
       <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-      <h2>Postado por {{ post.authors }} em {{ post.date | date: "%d/%m/%Y" }}</h2>
-      <h2>Categorias: {{ post.categories | join: ", " }}</h2>
+      <h2>{{ post.date | date: "%d/%m/%Y" }}</h2>
+      <h2>Categories: {{ post.categories | join: ", " }}</h2>
     </header>
     {{ post.content }}
     <a href="{{ post.url}}#disqus_thread">Comentários</a>
@@ -19,7 +19,7 @@ description: Desenvolvimento de Sofware, Agile e Ruby on Rails
   {% endfor %}
 </section>
 <aside class="last span-6">
-  <h1>Artigos recentes</h1>
+  <h1>Recent posts</h1>
   <ul>
     {% for post in site.posts limit: 10 %}
       <li><a href="{{ post.url }}">{{ post.title }}</a>
