@@ -5,7 +5,7 @@ layout: master
   <article class="post">
     <header>
       <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
-      <h2>{ page.date | date: "%d/%m/%Y" }}</h2>
+      <h2>{{ page.date | date: "%d/%m/%Y" }}</h2>
       <h2>Categories: {{ page.categories | join: ", " }}</h2>
     </header>
     {{ content }}
