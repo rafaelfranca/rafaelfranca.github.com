@@ -1,0 +1,24 @@
+---
+layout: master
+title: About
+keywords: rafael, rafael frança, software development
+---
+<article class="post prepend-2 append-2 span-20 last">
+h1. {{ page.title }}
+
+!(left)/images/me.jpg(Rafael Mendonça França)!
+
+I'm Rafael Mendonça França. I work as software developer at "Plataformatec":http://www.plataformatec.com.br.
+
+Application Developer in a wide variety of business applications. Particularly interested in web applications and agile.
+
+I am also member of Rails Core team since 2012, year which I started to contribute for the framework.
+
+Specialties: Ruby, Ruby on Rails, JavaScript, HTML, CSS, XP, Scrum
+
+Some links:
+
+* "Twitter":http://twitter.com/rafaelfranca
+* "GitHub":http://github.com/rafaelfranca
+
+</article>

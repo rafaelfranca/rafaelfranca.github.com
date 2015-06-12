@@ -5,8 +5,8 @@ layout: master
   <article class="post">
     <header>
       <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
-      <h2>Postado por {{ page.authors }} em {{ page.date | date: "%d/%m/%Y" }}</h2>
-      <h2>Categorias: {{ page.categories | join: ", " }}</h2>
+      <h2>{ page.date | date: "%d/%m/%Y" }}</h2>
+      <h2>Categories: {{ page.categories | join: ", " }}</h2>
     </header>
     {{ content }}
     <div id="disqus_thread"></div>
@@ -23,7 +23,7 @@ layout: master
   </article>
 </section>
 <aside class="last span-6">
-  <h1>Artigos recentes</h1>
+  <h1>Recent posts</h1>
   <ul>
     {% for post in site.posts limit: 10 %}
       <li><a href="{{ post.url }}">{{ post.title }}</a>
