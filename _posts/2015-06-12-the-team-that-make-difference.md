@@ -30,12 +30,14 @@ welcoming that what I have here. I think that the place I'm going have a lot of 
 same and this is enough, because here I had so much.
 
 I'm really happy to have worked at Plataformatec, and want to thank everyone that worked with me.
-Thank you for the partners, that trusted me when nobody knews my potential, for giving me support and
-for embracing my crazy ideas. For my heroes (idols and references) José, Carlos, George, Hugo, João,
+Thank you to the partners, that trusted me when nobody knews my potential, for giving me support and
+for embracing my crazy ideas. To my heroes (idols and references), José, Carlos, George, Hugo, João,
 Gustavo, Lucas, Rondy, Erich, Kassio and Ulisses for making my job chalenging, easy, funny and joyful.
-For my shields Junior, Ozaki, Carol, Wesley and Nathalia for letting me free to work on the most important
-things. And for all my coworkers for make me fell in home and helping me to do the best work I can make
-everyday.
+To my shields, Junior, Ozaki, Carol, Wesley and Nathalia for letting me free to work on the most important
+things, and teaching me new things every day about projects. To our CEO, Marcelo, for having his
+door always open to hear my concerns about the company and about our team, and for always leading me
+to the right direction. And to all my coworkers for make me fell in home and helping me to do the
+best work I can make everyday.
 
 Thank you so much Plataformatec, for making difference in my life. Your culture will live with me
 forever.
