@@ -7,8 +7,8 @@ authors: ["Rafael Mendonça França"]
 ---
 
 Today I'm leaving Plataformatec. It was 4 years working here and we acomplished a lot. I fell so
-fortunate to had the oportunity to work on this team. Everyone were so smart and helpful,
-that working there felt like a privilege. The projects that we worked were challenging and I felt that
+fortunate to had the oportunity to work on this team. Everyone is so smart and helpful,
+that working here felt like a privilege. The projects that we worked were challenging and I felt that
 I was making difference with my work.
 
 And that summarize very well my feeling about working there, I feel that we were making difference.
